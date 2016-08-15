@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp1">
+        <item
+            android:id="@+id/academics"
+            android:title="@string/academics"
+            android:icon="@drawable/ic_academics_black_24px"/>
+        <item
+            android:id="@+id/admission"
+            android:title="@string/admissions"
+            android:icon="@drawable/ic_admission_black_24px"/>
+        <item
+            android:id="@+id/placement"
+            android:title="@string/placements"
+            android:icon="@drawable/ic_placements"/>
+        <item
+            android:id="@+id/administration"
+            android:title="@string/administration"
+            android:icon="@drawable/ic_administration_ind_black_24px"/>
+        </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp2">
+        <item
+            android:id="@+id/faculty"
+             android:title="@string/faculty"
+            android:icon="@drawable/ic_faculty_black_24px"/>
+        <item
+            android:id="@+id/student"
+            android:title="@string/student"
+            android:icon="@drawable/ic_student_outline_black_24px"/>
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp3">
+        <item
+            android:id="@+id/emergency"
+            android:title="@string/emergency"
+            android:icon="@drawable/ic_healing_black_24px"/>
+        <item
+            android:id="@+id/bus"
+            android:title="@string/bus"
+            android:icon="@drawable/ic_directions_bus_black_24px"/>
+        <item
+            android:id="@+id/map"
+            android:title="@string/map"
+            android:icon="@drawable/ic_add_location_black_24px"/>
+        <item
+            android:id="@+id/dining"
+            android:title="@string/dining"
+            android:icon="@drawable/ic_local_dining_black_24px"/>
+        </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp4">
+        <item
+            android:id="@+id/gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/gallery" />
+        <item
+            android:id="@+id/about"
+            android:title="@string/about"
+            android:icon="@drawable/ic_info_black_24px"/>
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+</menu>

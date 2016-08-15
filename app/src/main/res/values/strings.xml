@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">LNMIIT</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="weblink">lnmiit.ac.in</string>
+    <string name="academics">Academics</string>
+    <string name="admissions">Admissions</string>
+    <string name="placements">Placements</string>
+    <string name="administration">Administration</string>
+    <string name="faculty">Faculty</string>
+    <string name="student">Students</string>
+    <string name="emergency">Emergency</string>
+    <string name="bus">Bus</string>
+    <string name="map">Map</string>
+    <string name="dining">Dining</string>
+    <string name="gallery">Gallery</string>
+    <string name="about">About Us</string>
+</resources>
