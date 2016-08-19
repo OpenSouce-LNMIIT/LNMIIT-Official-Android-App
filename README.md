@@ -1,4 +1,7 @@
-# LNMIIT_Android_App
+# LNMIIT Android Application
+
+Work under progress....
+
 This repo caontains source code of the official Android application of LNMIIT.
 Currently 4 students from Y-14 batch are working on the v.3 of the application.
 
