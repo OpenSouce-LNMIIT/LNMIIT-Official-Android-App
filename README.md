@@ -8,6 +8,6 @@ This version will contains:
 - High quality code with better code coverage and scalability.
 
 ##Mentors: 
-- Vishwajeet Srivastava [https://github.com/vjs3]
-- Aditya Jain
+- **[Vishwajeet Srivastava] (https://github.com/vjs3)**
+- **Aditya Jain**
 
