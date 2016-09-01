@@ -1,4 +1,4 @@
-package org.lnmiit.activities;
+package lnmiit.android.app;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

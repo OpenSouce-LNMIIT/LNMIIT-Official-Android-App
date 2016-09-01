@@ -1,4 +1,4 @@
-package org.lnmiit.activities;
+package lnmiit.android.app;
 
 import org.junit.Test;
 

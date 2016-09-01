@@ -1,16 +1,17 @@
-package org.lnmiit.activities;
+package lnmiit.android.app;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import org.android.app.R;
+
 /* Created by Chanpreet
    on 11 August 2016
  */
 public class SplashActivity extends AppCompatActivity {
 
       private Thread splash;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,9 +27,9 @@ public class SplashActivity extends AppCompatActivity {
                     sleep(3000);
                 } catch (Exception e) {
                     e.printStackTrace();
-                } finally {   // Launching to  main Activity
-                    Intent mainintent = new Intent("org.lnmiit.activities.main");
-                    startActivity(mainintent);
+                } finally {   // Launching the main Activity
+                    Intent mainIntent = new Intent("lnmiit.android.app.main");
+                    startActivity(mainIntent);
                     finish();
                 }
             }

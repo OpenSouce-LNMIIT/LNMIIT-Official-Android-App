@@ -1,4 +1,4 @@
-package org.lnmiit.activities;
+package lnmiit.android.app;
 
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
@@ -9,13 +9,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-
+import org.android.app.R;
 /* Created by Chanpreet
    on 11 August 2016
  */
-
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,9 +25,8 @@ public class MainActivity extends AppCompatActivity
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+                this, drawer, toolbar, R.string.navigation_drawer_open,R.string.navigation_drawer_close);
         toggle.syncState();
-
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
     }
@@ -60,31 +59,18 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         int id = item.getItemId();
-
         if (id == R.id.academics) {
-            /* Add Academics Fragment Here */
         } else if (id == R.id.admission) {
-            /* Add Admission Fragment Here */
         } else if (id == R.id.placement) {
-            /* Add Placement Fragment Here */
         } else if (id == R.id.administration) {
-            /* Add Administration Fragment Here */
         } else if (id == R.id.faculty) {
-           /* Add Faculty Fragment Here */
         } else if (id == R.id.student) {
-            /* Add Student Fragment Here */
         } else if (id == R.id.emergency) {
-            /* Add Emergency Fragment Here */
         } else if (id == R.id.bus) {
-            /* Add Bus Fragment Here */
         } else if (id == R.id.map) {
-            /* Add Map Fragment Here */
         } else if (id == R.id.dining) {
-            /* Add Dining Fragment Here */
         } else if (id == R.id.gallery) {
-            /* Add Gallery Fragment Here */
         } else if (id == R.id.about) {
-            /* Add About Fragment Here */
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

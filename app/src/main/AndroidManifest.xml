@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.lnmiit.activities">
+    package="org.android.app">
 
     <application
         android:allowBackup="true"
@@ -9,17 +9,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="org.lnmiit.activities.MainActivity"
+            android:name="lnmiit.android.app.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
-                <action android:name="org.lnmiit.activities.main" />
+                <action android:name="lnmiit.android.app.main" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
         <activity
-            android:name="org.lnmiit.activities.SplashActivity"
+            android:name="lnmiit.android.app.SplashActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme">
             <intent-filter>
