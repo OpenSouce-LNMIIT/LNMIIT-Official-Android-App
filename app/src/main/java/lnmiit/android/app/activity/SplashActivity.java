@@ -1,11 +1,10 @@
-package lnmiit.android.app;
+package lnmiit.android.app.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import org.android.app.R;
-
+import lnmiit.android.app.R;
 /* Created by Chanpreet
    on 11 August 2016
  */

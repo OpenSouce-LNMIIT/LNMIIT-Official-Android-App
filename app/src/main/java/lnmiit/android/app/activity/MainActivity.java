@@ -1,4 +1,4 @@
-package lnmiit.android.app;
+package lnmiit.android.app.activity;
 
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
@@ -9,7 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import org.android.app.R;
+import lnmiit.android.app.R;
 /* Created by Chanpreet
    on 11 August 2016
  */
