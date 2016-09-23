@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.util.Log;
@@ -41,7 +40,7 @@ public class HomeFragment extends Fragment {
     }
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getActivity().getSupportFragmentManager());
-        adapter.addFrag(new Tab1(), "Updates");
+        adapter.addFrag(new UpdateFragment(), "Updates");
         adapter.addFrag(new NewsFragment(), "News");
         viewPager.setAdapter(adapter);
     }

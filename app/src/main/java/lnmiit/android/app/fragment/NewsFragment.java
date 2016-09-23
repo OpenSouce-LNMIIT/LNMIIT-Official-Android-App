@@ -1,6 +1,7 @@
 package lnmiit.android.app.fragment;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -10,6 +11,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
+import android.widget.Toast;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -20,7 +23,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 import lnmiit.android.app.R;
+import lnmiit.android.app.RecyclerTouchListener;
 import lnmiit.android.app.activity.MainActivity;
+import lnmiit.android.app.activity.WebActivity;
 import lnmiit.android.app.adapter.UpdateAdapter;
 import lnmiit.android.app.model.UpdateDetail;
 
@@ -32,7 +37,7 @@ public class NewsFragment extends Fragment {
     private RecyclerView recyclerView;
     protected ArrayList<UpdateDetail> updateList;
     private UpdateAdapter updateAdapter;
-    private Context mContext ;
+    private ProgressBar progressBar ;
 
     public NewsFragment(){
 
@@ -48,14 +53,27 @@ public class NewsFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_update, container, false) ;
         recyclerView = (RecyclerView) view.findViewById(R.id.rv);
-        Log.e("Hello","Tab1");
+        progressBar = (ProgressBar) view.findViewById(R.id.progressbarupdate);
         updateList = new ArrayList<>();
         updateAdapter = new UpdateAdapter(getActivity(), updateList);
         RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(mLayoutManager);
         recyclerView.setAdapter(updateAdapter);
+        recyclerView.addOnItemTouchListener(new RecyclerTouchListener(getActivity(), recyclerView, new RecyclerTouchListener.ClickListener() {
+            @Override
+            public void onClick(View view, int position) {
+                UpdateDetail updateItem = updateList.get(position);
+                Intent intent = new Intent(getActivity(), WebActivity.class);
+                intent.putExtra("url_news",updateItem.getUrl());
+                startActivity(intent);
+//                Toast.makeText(getActivity(), updateItem.getTitle() + " is selected!", Toast.LENGTH_SHORT).show();
+            }
 
-        Log.e("NewsFragment","Hello");
+            @Override
+            public void onLongClick(View view, int position) {
+
+            }
+        }));
         JsoupAsyncTask jsoupAsyncTask = new JsoupAsyncTask();
         jsoupAsyncTask.execute();
         // Inflate the layout for this fragment
@@ -67,6 +85,7 @@ public class NewsFragment extends Fragment {
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
+            progressBar.setVisibility(View.VISIBLE);
         }
 
         @Override
@@ -105,6 +124,7 @@ public class NewsFragment extends Fragment {
 
         @Override
         protected void onPostExecute(Void result) {
+            progressBar.setVisibility(View.GONE);
         }
     }
 }

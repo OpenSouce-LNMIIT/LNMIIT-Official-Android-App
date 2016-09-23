@@ -386,7 +386,6 @@ joyeeta.singha@lnmiit.ac.in
     </string-array>
 
 
-
     <string-array name="hss_faculty_url">
         <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=84&amp;command=profile_pic&amp;w=100&amp;h=100</item>
         <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=52&amp;command=profile_pic&amp;w=100&amp;h=100</item>
@@ -432,5 +431,9 @@ joyeeta.singha@lnmiit.ac.in
         <item>+919460586151</item>
         <item>+919950656775</item>
     </string-array>
+    <string name="title_activity_web">WebActivity</string>
+    <string name="action_loadbrowser">Open in Browser</string>
+    <string name="action_copylink">Copy link</string>
+    <string name="action_downloadpdf">Download Pdf</string>
 
 </resources>

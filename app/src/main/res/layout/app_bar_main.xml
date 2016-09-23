@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:theme="@style/AppTheme"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:fitsSystemWindows="true">
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar"
         android:layout_width="match_parent"
@@ -20,9 +21,7 @@
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
             android:fitsSystemWindows="true"
             app:contentScrim="?attr/colorPrimary"
-            app:expandedTitleMarginStart="48dp"
-            app:expandedTitleMarginBottom="60dp"
-            app:expandedTitleMarginEnd="64dp"
+            app:titleEnabled="false"
             >
             <ImageView
                 android:id="@+id/backdrop"
@@ -40,14 +39,16 @@
                 android:gravity="top"
                 app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
                 app:layout_collapseMode="pin"
-                app:titleMarginTop="15dp" />
+                app:titleMarginTop="15dp"
+                app:layout_scrollFlags="scroll|enterAlways"/>
             <android.support.design.widget.TabLayout
                 android:id="@+id/tabs"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 app:tabIndicatorHeight="3dp"
                 android:layout_gravity="bottom"
-                app:tabMode="scrollable"/>
+                app:tabGravity="center"
+                />
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
     <include layout="@layout/content_main"/>

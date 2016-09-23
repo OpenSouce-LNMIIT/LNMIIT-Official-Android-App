@@ -27,6 +27,8 @@ public class UpdateAdapter extends RecyclerView.Adapter<UpdateAdapter.MyViewHold
             super(view);
             title = (TextView) view.findViewById(R.id.title);
         }
+
+
     }
 
 
