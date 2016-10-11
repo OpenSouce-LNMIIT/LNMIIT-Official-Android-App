@@ -12,11 +12,12 @@
         android:clipToPadding="false"
         android:orientation="vertical"
         app:layout_behavior="@string/appbar_scrolling_view_behavior" />
-    <ProgressBar
-        android:id="@+id/progressbarupdate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true">
-    </ProgressBar>
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="@string/no_data_available"
+        android:textSize="@dimen/emptyTextSize"/>
 </RelativeLayout>

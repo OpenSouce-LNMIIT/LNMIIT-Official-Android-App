@@ -1,43 +1,41 @@
 package lnmiit.android.app.fragment;
 
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.os.AsyncTask;
+import android.content.IntentFilter;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ProgressBar;
-import android.widget.Toast;
+import android.widget.TextView;
 
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
-
-import java.io.IOException;
 import java.util.ArrayList;
 
 import lnmiit.android.app.R;
-import lnmiit.android.app.RecyclerTouchListener;
-import lnmiit.android.app.activity.MainActivity;
+import lnmiit.android.app.utilities.RecyclerTouchListener;
 import lnmiit.android.app.activity.WebActivity;
 import lnmiit.android.app.adapter.UpdateAdapter;
 import lnmiit.android.app.model.UpdateDetail;
+import lnmiit.android.app.service.CrawDataService;
 
 /**
  * Created by dexter on 23/9/16.
  */
-public class UpdateFragment extends Fragment {private RecyclerView recyclerView;
+public class UpdateFragment extends Fragment {
+
+    private RecyclerView recyclerView;
     protected ArrayList<UpdateDetail> updateList;
     private UpdateAdapter updateAdapter;
-    private ProgressBar progressBar ;
-    public UpdateFragment(){
+    private UpdateReceiver updateReceiver;
+    private TextView emptyText ;
 
+    public UpdateFragment(){
     }
 
     @Override
@@ -50,12 +48,24 @@ public class UpdateFragment extends Fragment {private RecyclerView recyclerView;
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_update, container, false) ;
         recyclerView = (RecyclerView) view.findViewById(R.id.rv);
-        progressBar = (ProgressBar) view.findViewById(R.id.progressbarupdate);
+        emptyText = (TextView) view.findViewById(R.id.empty_view);
+
         updateList = new ArrayList<>();
         updateAdapter = new UpdateAdapter(getActivity(), updateList);
+
+
         RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(mLayoutManager);
         recyclerView.setAdapter(updateAdapter);
+
+        if(updateList.isEmpty()){
+            recyclerView.setVisibility(View.GONE);
+            emptyText.setVisibility(View.VISIBLE);
+        }else{
+            recyclerView.setVisibility(View.VISIBLE);
+            emptyText.setVisibility(View.GONE);
+        }
+
         recyclerView.addOnItemTouchListener(new RecyclerTouchListener(getActivity(), recyclerView, new RecyclerTouchListener.ClickListener() {
             @Override
             public void onClick(View view, int position) {
@@ -70,53 +80,53 @@ public class UpdateFragment extends Fragment {private RecyclerView recyclerView;
 
             }
         }));
-        JsoupAsyncTask jsoupAsyncTask = new JsoupAsyncTask();
-        jsoupAsyncTask.execute();
+
         return view;
     }
 
-    private class JsoupAsyncTask extends AsyncTask<Void, Void, Void> {
+    @Override
+    public void onResume() {
+        super.onResume();
 
-        @Override
-        protected void onPreExecute() {
-            super.onPreExecute();
-            progressBar.setVisibility(View.VISIBLE);
-        }
+        IntentFilter broadcastFilter = new IntentFilter(UpdateReceiver.INTENT_ACTION);
 
-        @Override
-        protected Void doInBackground(Void... params) {
-            Document doc = null;
-            try {
-                doc = Jsoup.connect("http://www.lnmiit.ac.in").get();
-                Elements content = doc.select("div.news").select("div.news_events_matter").select("table tbody tr td div table tbody td marquee ul li span a");
-                for (Element contentItem : content) {
-                    String title = contentItem.text();
-                    String href = contentItem.attr("href");
-                    if (!(href.contains("http") || href.contains("https"))) {
-                        href = "http://www.lnmiit.ac.in/" + href;
-                    }
-                    System.out.println("Title : " + title + "\nHref : " + href);
-                    updateList.add(new UpdateDetail(href,title));
-                }
-                ((MainActivity)getActivity()).runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-                        updateAdapter.notifyDataSetChanged();
+        updateReceiver = new UpdateReceiver();
 
-                    }
-                });
-                System.out.print("Hello");
-            } catch (IOException e) {
-                System.out.print(e);
-                e.printStackTrace();
-            }
-            return null;
-        }
+        LocalBroadcastManager localBroadcastManager = LocalBroadcastManager.getInstance(getContext());
+        localBroadcastManager.registerReceiver(updateReceiver,broadcastFilter);
 
-        @Override
-        protected void onPostExecute(Void result) {
-            progressBar.setVisibility(View.GONE);
-
-        }
+        Intent intent = new Intent(getContext(),CrawDataService.class);
+        intent.setAction(UpdateReceiver.INTENT_ACTION);
+        getContext().startService(intent);
     }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+
+        LocalBroadcastManager localBroadcastManager = LocalBroadcastManager.getInstance(getContext());
+        localBroadcastManager.unregisterReceiver(updateReceiver);
+    }
+
+    public class UpdateReceiver extends BroadcastReceiver {
+        public static final String INTENT_ACTION = "lnmiit.android.app.service.UpdateReceiver.update";
+
+        @Override
+        public void onReceive(Context context, Intent intent) {
+
+            ArrayList<? extends Parcelable> list =  intent.getParcelableArrayListExtra(CrawDataService.DATA_UPDATE);
+            for(int i = 0 ; i < list.size() ; i++){
+                updateList.add((UpdateDetail) list.get(i));
+            }
+            updateAdapter.notifyDataSetChanged();
+
+            if(updateList.isEmpty()){
+                recyclerView.setVisibility(View.GONE);
+                emptyText.setVisibility(View.VISIBLE);
+            }else{
+                recyclerView.setVisibility(View.VISIBLE);
+                emptyText.setVisibility(View.GONE);
+            }
+        }
+    };
 }

@@ -38,6 +38,8 @@ public class FacultyFragment extends Fragment {
         tabLayout = ((MainActivity)getActivity()).getTabLayout();
         tabLayout.removeAllTabs();
         tabLayout.setupWithViewPager(viewPager);
+        tabLayout.setTabMode(TabLayout.MODE_SCROLLABLE);
+
         return view ;
     }
     private void setupViewPager(ViewPager viewPager) {

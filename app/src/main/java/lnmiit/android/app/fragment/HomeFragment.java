@@ -36,6 +36,7 @@ public class HomeFragment extends Fragment {
         tabLayout = ((MainActivity)getActivity()).getTabLayout();
         Log.e("Tab", String.valueOf(tabLayout.getTabCount()));
         tabLayout.setupWithViewPager(viewPager);
+        tabLayout.setTabMode(TabLayout.MODE_FIXED);
         return view ;
     }
     private void setupViewPager(ViewPager viewPager) {

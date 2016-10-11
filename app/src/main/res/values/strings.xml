@@ -435,5 +435,6 @@ joyeeta.singha@lnmiit.ac.in
     <string name="action_loadbrowser">Open in Browser</string>
     <string name="action_copylink">Copy link</string>
     <string name="action_downloadpdf">Download Pdf</string>
+    <string name="no_data_available">No Updates</string>
 
 </resources>

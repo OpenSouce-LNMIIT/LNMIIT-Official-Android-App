@@ -1,4 +1,4 @@
-package lnmiit.android.app;
+package lnmiit.android.app.utilities;
 
 /**
  * Created by dexter on 24/9/16.

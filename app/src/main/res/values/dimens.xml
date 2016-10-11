@@ -27,4 +27,5 @@
     <dimen name="icon_layout_margin">16dp</dimen>
     <dimen name="cardTitleSize">16sp</dimen>
     <dimen name="card_padding">5dp</dimen>
+    <dimen name="emptyTextSize">26dp</dimen>
 </resources>
