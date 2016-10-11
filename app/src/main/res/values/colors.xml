@@ -3,4 +3,6 @@
     <color name="colorPrimary">#CC0000</color>
     <color name="colorPrimaryDark">#990000</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="faculty_title">#4c4c4c</color>
+    <color name="tab_indicator">#6D4C41</color>
 </resources>
