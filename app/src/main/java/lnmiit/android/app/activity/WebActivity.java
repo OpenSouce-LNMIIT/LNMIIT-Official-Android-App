@@ -68,7 +68,15 @@ public class WebActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-        if (id == R.id.action_copylink) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                break;
+        }
+        if(id == android.R.id.home) {
+            finish();
+        }
+        else if (id == R.id.action_copylink) {
             copyToClipBoard();
             return true;
         }else if(id == R.id.action_loadbrowser){
