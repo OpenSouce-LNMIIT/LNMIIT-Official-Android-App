@@ -18,6 +18,7 @@ import android.view.MenuItem;
 import android.widget.ImageView;
 
 import lnmiit.android.app.R;
+import lnmiit.android.app.fragment.AboutUsFragment;
 import lnmiit.android.app.fragment.FacultyFragment;
 import lnmiit.android.app.fragment.HomeFragment;
 
@@ -111,6 +112,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.dining) {
         } else if (id == R.id.gallery) {
         } else if (id == R.id.about) {
+            fragment = new AboutUsFragment();
         }
 
         if (fragment != null) {

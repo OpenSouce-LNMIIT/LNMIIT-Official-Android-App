@@ -437,4 +437,50 @@ joyeeta.singha@lnmiit.ac.in
     <string name="action_downloadpdf">Download Pdf</string>
     <string name="no_data_available">No Updates</string>
 
+    <string name="director_image_link">http://lnmiit.ac.in/images/DirectorPhoto.jpg</string>
+
+    <string name="foundation">
+        The Lakshmi &amp; Usha Mittal Foundation is a charitable trust founded by the Steel Baron Mr. Lakshmi N. Mittal. It is engaged in various philanthropic activities for relief ‚ rehabilitation ‚ socio-economic development and education. Foundation’s thrust in the area of education is distinct
+It has set up LNM IIT at Jaipur in collaboration with the Government of Rajasthan. This institute with a large campus ‚ infrastructure and distinguished faculty is aimed to be world–class institute of excellence. For women ‚ “ Usha Mittal Institute of Technology ” is being set up in SNDT Women’s University ‚ Mumbai by the foundation. It has contributed a handsome amount to the prestigious Indian School of Business at Hyderabad for development of business education.
+Many charitable projects have been undertaken in Rajasthan where the founders of the trust have their roots‚ such as‚ supply of drinking water to famine affected villages‚ medicine‚ fodder for cattle‚ distribution of improved seeds, fertilizers to needy villagers‚ distribution of tricycles to handicapped children‚ providing school dress‚ fees‚ stationery and spectacles to poor school children‚ etc. Numbers of primary health centers have been opened in various villages where free medicine and treatment is provided besides undertaking programs on health education and family planning programs are being organized on a big scale and thousands of poor people have been benefited.
+The foundation has helped build a new hospital in Kutch (Gujrat) after the devastating earthquake. It has also contributed large amount to the drought relief fund of the Chief Minister of Rajasthan. A big grant has been given by the Foundation for rehabilitation of people in the tsunami affected areas of south India. The Foundation is envisaging several other projects, which will not only continue to help the poor but also enable them to earn their livelihood so that they can improve the quality of their lives and live with dignity.
+    </string>
+
+    <string name="vision">
+        To establish world class platform for creation of knowledge through quality research and its dissemination through technologically enabled teaching - learning pedagogy in the field of science, technology, engineering, arts and management. To become a catalyst in the societal and national development, by ensuring continuous interaction with industry and other academic and research institutions in India and abroad.
+    </string>
+    <string name="mission">
+        To offer state of the art undergraduate programs in IT &amp; ITES as well as core disciplines with emphasis on strong fundamentals
+To establish centers of excellence in emerging areas to provide significant breakthrough required to solve real world problems
+To make The LNMIIT as the most preferred institute for higher education across the country
+To create intellectual property through innovations, quality research publications and patents
+To instill core values of excellence, integrity, teamwork, professional ethics and environmental concerns
+To foster and nurture leadership and entrepreneurial qualities and lifelong learning amongst students, research scholars, faculty and staff of The LNMIIT
+
+
+
+
+    </string>
+
+    <string name="objectives">
+        To start innovative PG programs in humanities and social sciences, basic sciences, engineering and technology
+To focus on PhD in all disciplines
+To participate in e-governance and similar projects of the state of Rajasthan
+To enhance participation in ITRA projects of MIT .
+To optimize use of critical resources by multitasking
+To establish vibrant and strong alumni network
+To organize regular conferences to enhance networking and brand equity
+To emphasize on knowledge and skill development at all levels
+To build sizable corpus through smart savings, donations from philanthropic organizations and alumni contributions towards meeting specific objectives
+
+
+    </string>
+
+    <string name="director_message">
+        Dear Students,
+Welcome to LNMIIT Campus for the academic session 2016 - 17. Past couple of years would have been full of hard work and anxiety for you and your parents. This is the first step in your professional career. Let it not be tentative but a firm one. Having decided to be in the Engineering Profession, make the best use of the time, energy and the opportunities provided to you at LNMIIT. In this endeavor self discipline and healthy lifestyle would be crucial.
+We understand that adjusting to a new environment away from home will take some time. But soon these days will pass and you would be comfortable in this new home away from home. There are avenues available to you for your creative expression and talent which you would come to know in due course of time. Apart from academics all these are essential for your overall personality development. Wishing you fruitful and productive stay at LNMIIT.
+
+
+    </string>
 </resources>
