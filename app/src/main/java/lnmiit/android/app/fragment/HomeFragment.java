@@ -1,14 +1,12 @@
 package lnmiit.android.app.fragment;
 
-
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatDelegate;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,40 +17,32 @@ import java.util.List;
 import lnmiit.android.app.R;
 import lnmiit.android.app.activity.MainActivity;
 
-
 /**
- * Created by dexter on 21/8/16.
+ * Created by dexter on 23/9/16.
  */
-public class FacultyFragment extends Fragment {
+public class HomeFragment extends Fragment {
 
-    static {
-        AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
-    }
+
     private TabLayout tabLayout;
     private ViewPager viewPager;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_faculty, container, false);
-        viewPager = (ViewPager) view.findViewById(R.id.viewpager1);
+        View view = inflater.inflate(R.layout.fragment_home, container, false);
+        viewPager = (ViewPager) view.findViewById(R.id.viewpager2);
         setupViewPager(viewPager);
 
         tabLayout = ((MainActivity)getActivity()).getTabLayout();
-        tabLayout.removeAllTabs();
+        Log.e("Tab", String.valueOf(tabLayout.getTabCount()));
         tabLayout.setupWithViewPager(viewPager);
-        tabLayout.setTabMode(TabLayout.MODE_SCROLLABLE);
-
+        tabLayout.setTabMode(TabLayout.MODE_FIXED);
         return view ;
     }
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getActivity().getSupportFragmentManager());
-        adapter.addFrag(new CSEFacultyFragment(), "CSE");
-        adapter.addFrag(new ECEFacultyFragment(), "ECE");
-        adapter.addFrag(new MMEFacultyFragment(), "MME");
-        adapter.addFrag(new PHYFacultyFragment(), "PHYSICS");
-        adapter.addFrag(new MATHFacultyFragment(), "MATHS");
-        adapter.addFrag(new HSSFacultyFragment(), "HSS");
+        adapter.addFrag(new UpdateFragment(), "Updates");
+        adapter.addFrag(new NewsFragment(), "News");
         viewPager.setAdapter(adapter);
     }
 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_loadbrowser"
+        android:orderInCategory="100"
+        android:title="@string/action_loadbrowser"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_copylink"
+        android:orderInCategory="100"
+        android:title="@string/action_copylink"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,20 +1,26 @@
 package lnmiit.android.app.activity;
 
 import android.os.Bundle;
+import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.NavigationView;
+import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
+import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageView;
 
 import lnmiit.android.app.R;
+import lnmiit.android.app.fragment.AboutUsFragment;
 import lnmiit.android.app.fragment.FacultyFragment;
+import lnmiit.android.app.fragment.HomeFragment;
 
 /* Created by Chanpreet
    on 11 August 2016
@@ -22,12 +28,22 @@ import lnmiit.android.app.fragment.FacultyFragment;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+    private Toolbar toolbar;
+    private TabLayout tabLayout;
+    private ImageView imageView ;
+    private CollapsingToolbarLayout collapsingToolbar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+
+        collapsingToolbar = (CollapsingToolbarLayout)findViewById(R.id.collapsing_toolbar);
+        imageView = (ImageView)findViewById(R.id.backdrop);
+        tabLayout = (TabLayout) findViewById(R.id.tabs);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -35,8 +51,19 @@ public class MainActivity extends AppCompatActivity
         toggle.syncState();
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        Fragment fragment = new HomeFragment();
+        if (fragment != null) {
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+            fragmentTransaction.replace(R.id.frame_layout_container, fragment);
+            fragmentTransaction.commit();
+        }
     }
 
+    public  TabLayout getTabLayout(){
+        return  tabLayout;
+    }
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -70,7 +97,9 @@ public class MainActivity extends AppCompatActivity
         Fragment fragment = null;
 
         int id = item.getItemId();
-        if (id == R.id.academics) {
+        if(id == R.id.home){
+          fragment = new HomeFragment();
+        } else if (id == R.id.academics) {
         } else if (id == R.id.admission) {
         } else if (id == R.id.placement) {
         } else if (id == R.id.administration) {
@@ -83,6 +112,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.dining) {
         } else if (id == R.id.gallery) {
         } else if (id == R.id.about) {
+            fragment = new AboutUsFragment();
         }
 
         if (fragment != null) {

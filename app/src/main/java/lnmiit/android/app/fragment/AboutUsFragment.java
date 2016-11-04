@@ -1,14 +1,11 @@
 package lnmiit.android.app.fragment;
 
-
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatDelegate;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,15 +16,11 @@ import java.util.List;
 import lnmiit.android.app.R;
 import lnmiit.android.app.activity.MainActivity;
 
-
 /**
- * Created by dexter on 21/8/16.
+ * Created by dexter on 2/11/16.
  */
-public class FacultyFragment extends Fragment {
+public class AboutUsFragment extends Fragment {
 
-    static {
-        AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
-    }
     private TabLayout tabLayout;
     private ViewPager viewPager;
 
@@ -47,12 +40,9 @@ public class FacultyFragment extends Fragment {
     }
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getActivity().getSupportFragmentManager());
-        adapter.addFrag(new CSEFacultyFragment(), "CSE");
-        adapter.addFrag(new ECEFacultyFragment(), "ECE");
-        adapter.addFrag(new MMEFacultyFragment(), "MME");
-        adapter.addFrag(new PHYFacultyFragment(), "PHYSICS");
-        adapter.addFrag(new MATHFacultyFragment(), "MATHS");
-        adapter.addFrag(new HSSFacultyFragment(), "HSS");
+        adapter.addFrag(new DirectorFragment(), "Director");
+        adapter.addFrag(new VisionFragment(), "Vision");
+        adapter.addFrag(new FoundationFragment(), "Foundation");
         viewPager.setAdapter(adapter);
     }
 
