@@ -480,7 +480,84 @@ To build sizable corpus through smart savings, donations from philanthropic orga
         Dear Students,
 Welcome to LNMIIT Campus for the academic session 2016 - 17. Past couple of years would have been full of hard work and anxiety for you and your parents. This is the first step in your professional career. Let it not be tentative but a firm one. Having decided to be in the Engineering Profession, make the best use of the time, energy and the opportunities provided to you at LNMIIT. In this endeavor self discipline and healthy lifestyle would be crucial.
 We understand that adjusting to a new environment away from home will take some time. But soon these days will pass and you would be comfortable in this new home away from home. There are avenues available to you for your creative expression and talent which you would come to know in due course of time. Apart from academics all these are essential for your overall personality development. Wishing you fruitful and productive stay at LNMIIT.
-
-
     </string>
+
+    <string-array name="council">
+        <item>Technical</item>
+        <item>Cultural</item>
+        <item>Sports</item>
+    </string-array>
+    <string-array name="description">
+        <item>  We the science and technology council of LNMIIT are the backbone of our university.The phoenix club organizes various events in the field of robotics. The cybros provides training inthe field of networking,programming and conductsvarious programming contests. The literary committee that is considered to be the most elite groupof our institution, helps in enhancing the intellectual perspectiveof our students. With lots of literary events organized round the year, the students are exposed to the important skills of group discussions, debate, communication etc. The quiz club, which is by far the mostsuccesful club of the institution is one of the most popular quizzing body in northern India.The E-cell aims at developing an entrepreneurial spirit amongst the students.</item>
+        <item>
+            The Cultural Council manages a plethora of events, workshops and club activities throughout the year.
+                 Its main objectives are to provide the students with an exposure and a platform to learn, enjoy and sho
+                 wcase their talents in the fields of Dance, Music, Arts, Social Initiative Programs, Health Awareness Programs, Cl
+                 eanliness and Donation Drives for the poor and the needy. Cultural events like the Dan
+                 ce Premier League, Gusto-X (Dandiya night), and Rubaroo (Fresher party) are organised by the Cultura
+                 l Council with the help of clubs like dance club, drama club, music club, art n craft club, nukkad mandali, fashion clu
+                 b, movie club, photography club, and Sankalp club.
+        </item>
+        <item>   The Sports Council is placed among elite in the echelon of various councils in the Institute.
+                 We help provide students the arena to exhibit the sports dexterity present in us. The Sports Council nurtures
+                 talent by organizing various events, camps and coaching to help polish the diamond in you, from Karate Classes
+                  to Chess Tournaments to Yoga Sessions to Track Events, we leave no stone unturned in catering to the desires of
+                   the students. We take immense pride in Organizing the annual College Sports Festival Desportivos where students
+                   from various colleges converge for a carnival of their life. Annual Sports Day is also organized alongside, many
+                    sport specific tournaments like Badminton Premiere League, Football Premiere League and Basketball League which
+                    are held Intra-College so as provide students maximum exposure to sports. It is our endeavor to see LNMIIT in
+                    the pantheon of sports giants and make a name to reckon with in the arena of sports.</item>
+    </string-array>
+    <string-array name="fest_name">
+        <item>Vivacity</item>
+        <item>Plinth</item>
+        <item>Desportivos</item>
+    </string-array>
+    <string-array name="fest_des">
+        <item>Vivacity is an insane force of mharo Rajasthan, sweeping the nation with its array of colors while celebrating the spheres of life. One of the most awaited college festivals of Rajasthan, Vivacity has a footfall of more than 25000 crazed spectators to this entertainment gala situated in the majestic Aravallis of Jaipur. Vivacity 2013 was a ballad of iving Bollywood, celebrating 100 years of Indian Cinema.</item>
+        <item>Plinth is the annual inter college techno-management-literary festival of The LNM Institude of Information Technology. In 2011 LNMIIT introduced for the first time its Techno-Management Literary fest.</item>
+        <item>Desportivos is the annual Sports fest of The LNM Institute of Information Technology, Jaipur. Situated in the midst of the Aravalli , it is spread in an area of 100 acres and boasts of the finest sports  infrastructure that an Institute campus an aspire to have.Desportivos, attracts a wide spectrum of the youth from all over the country  and this year we had total footfall of over 5,000 students during the 3 days of the fest. The fest incorporated a wide range of outdoor as well as indoor sports activities like cricket, badminton, volleyball, basketball, football, table tennis, chess, and carom.</item>
+    </string-array>
+    <string-array name="gymkhana_name">
+        <item>Shubham Dangi</item>
+        <item>Samyak Dutt Gupta</item>
+        <item>Prakhar Deep</item>
+        <item>Akshay Modi</item>
+        <item>Vipul Behl</item>
+        <item>Shubham Vashisth</item>
+    </string-array>
+    <string-array name="gymkhana_designation">
+        <item>President</item>
+        <item>Vice-President</item>
+        <item>Finanace Convener</item>
+        <item>Gen.Sec.Cultural</item>
+        <item>Gen.Sec.Science-Tech</item>
+        <item>Gen.Sec.Sports</item>
+    </string-array>
+    <string-array name="gymkhana_links">
+        <item>"http://bit.ly/2d23ou6"</item>
+        <item>"http://bit.ly/2cNwc7L"</item>
+        <item>"http://bit.ly/2dgIqqw"</item>
+        <item></item>
+        <item>http://bit.ly/2cGDfBA</item>
+        <item>http://bit.ly/2cNGHYM</item>
+    </string-array>
+    <string-array name="gymkhana_email">
+        <item>"sdangi724@gmail.com"</item>
+        <item>"samyakduttgupta@gmail.com"</item>
+        <item>"deepprakhar24@gmail.com"</item>
+        <item>"akshaymodi.lnmiit@gmail.com"</item>
+        <item>"vbehl03@gmail.com"</item>
+        <item>"shubhamv1204@gmail.com"</item>
+    </string-array>
+    <string-array name="gymkhana_phone">
+        <item>+919828853059</item>
+        <item>+919462066697</item>
+        <item>+919413172823</item>
+        <item>+917597814370</item>
+        <item>+919468590302</item>
+        <item>+917073102810</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
