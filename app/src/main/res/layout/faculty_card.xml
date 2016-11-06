@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/tools"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/card_margin"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="@dimen/card_update_radius">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivthumbnail"
+                android:layout_width="@dimen/faculty_cover_width"
+                android:layout_height="@dimen/faculty_cover_height"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_person"
+                android:layout_marginTop="@dimen/margin_top_image"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tvtitle"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="@dimen/faculty_title_padding"
+                                android:paddingRight="@dimen/faculty_title_padding"
+                                android:paddingTop="@dimen/faculty_title_padding"
+                                android:textColor="@color/faculty_title"
+                                android:textSize="@dimen/faculty_title"
+                                android:text="Title"
+                                android:layout_marginRight="@dimen/title_margin"
+                                android:layout_marginLeft="@dimen/title_margin"
+                                android:ellipsize="end"
+                                android:maxLines="1" />
+
+                            <TextView
+                                android:id="@+id/tvdesignation"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingBottom="@dimen/designation_padding_bottom"
+                                android:paddingLeft="@dimen/faculty_title_padding"
+                                android:paddingRight="@dimen/faculty_title_padding"
+                                android:textSize="@dimen/designation_text_size"
+                                android:text="Designation"
+                                android:layout_marginRight="@dimen/title_margin"
+                                android:layout_marginLeft="@dimen/title_margin"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/margin_top_layout"
+                android:layout_marginBottom="@dimen/margin_bottom_layout"
+                android:layout_marginLeft="@dimen/icon_layout_margin"
+                android:layout_marginRight="@dimen/icon_layout_margin">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_email"
+                    android:id="@+id/ivemail"
+                    android:layout_marginRight="@dimen/margin_icon_textview"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_phone"
+                    android:id="@+id/ivphone"
+                    android:layout_marginLeft="@dimen/margin_icon_textview" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

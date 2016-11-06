@@ -19,4 +19,545 @@
     <string name="dining">Dining</string>
     <string name="gallery">Gallery</string>
     <string name="about">About Us</string>
+
+    <string-array name="cse_faculty_url">
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=20231&amp;amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=70&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=212&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/images/system/noprofile.jpg</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=151&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=133&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=56&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=54&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=140&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=73&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=145&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=50&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=75&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=78&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+    </string-array>
+
+    <string-array name="cse_faculty_name">
+        <item>Prof. Narasimha Bolloju</item>
+        <item>Prof. Ravi Prakash Gorthi</item>
+        <item>Dr. Sakthi Balan Muthiah</item>
+        <item>Dr. Subrat Kumar Dash</item>
+        <item>Dr. Bharavi Mishra</item>
+        <item>Dr. Poonam Gera</item>
+        <item>Dr. Preety Singh</item>
+        <item>Dr. Rajbir Kaur</item>
+        <item>Dr. Vibhor Kant</item>
+        <item>Mr. Dinesh Khandelwal</item>
+        <item>Mr. Sunil Kumar</item>
+        <item>Mr. Vikas Bajpai</item>
+        <item>Ms. Sonam Nahar</item>
+        <item>Mr. Mukesh K Jadon</item>
+
+    </string-array>
+
+    <string-array name="cse_faculty_designation">
+        <item>Professor</item>
+        <item>Professor</item>
+        <item>Associate Professor</item>
+        <item>Associate Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Lecturer</item>
+    </string-array>
+
+    <string-array name="cse_faculty_email">
+        <item>narsi.bolloju@lnmiit.ac.in</item>
+        <item>rgorthi@lnmiit.ac.in</item>
+        <item>sakthi.balan@lnmiit.ac.in</item>
+        <item>subrat@lnmiit.ac.in</item>
+        <item>bharavi@lnmiit.ac.in</item>
+        <item>poonamgera.21@gmail.com</item>
+        <item>prtysingh@gmail.com</item>
+        <item>catchrajbirkaur@gmail.com</item>
+        <item>vibhor.kant@lnmiit.ac.in</item>
+        <item>dineshk@lnmiit.ac.in</item>
+        <item>sunil@lnmiit.ac.in</item>
+        <item>vikas.bajpai87@gmail.com</item>
+        <item>sonamnahar@gmail.com</item>
+        <item>jadonmukesh30@gmail.com</item>
+    </string-array>
+
+    <string-array name="cse_faculty_contact">
+        <item> </item>
+        <item>+917597167508</item>
+        <item>+919739979480</item>
+        <item>+919413825982</item>
+        <item>+917727017662</item>
+        <item>+918764395180</item>
+        <item>+919828364396</item>
+        <item>+919829688889</item>
+        <item> </item>
+        <item>+918764038699</item>
+        <item> </item>
+        <item>+918875522828</item>
+        <item>+919530176476</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="ece_faculty_url">
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=77&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=46&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=82&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=119&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=195&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=149&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=144&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=20269&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=166&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=189&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=150&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=47&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=98&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=20280&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=93&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=53&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=20267&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+    </string-array>
+    <string-array name="ece_faculty_name">
+        <item>Prof. Ranjan Gangopadhyay</item>
+        <item>Prof. Raghuvir Tomar</item>
+        <item>Dr. Soumitra Debnath</item>
+        <item>Dr. Abhishek Sharma</item>
+        <item>Dr. Akshaykumar Salimath</item>
+        <item>Dr. Divyang Rawal</item>
+        <item>Dr. Kusum Lata</item>
+        <item>Dr. M. V. Deepak Nair</item>
+        <item>Dr. Navneet Upadhyay</item>
+        <item>Dr. Santosh Shah</item>
+        <item>Dr. Smrity Dwivedi</item>
+        <item>Mr. Dharmendra Dixit</item>
+        <item>Mr. Kapil Jainwal</item>
+        <item>Mr. Nikhil Sharma</item>
+        <item>Mr. Purnendu Karmakar</item>
+        <item>Mr. Sandeep Saini</item>
+        <item>Ms. Joyeeta Singha</item>
+    </string-array>
+
+    <string-array name="ece_faculty_designation">
+        <item>Distinguished Professor</item>
+        <item>Professor</item>
+        <item>Associate Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+
+    </string-array>
+    <string-array name="ece_faculty_email">
+        <item>ranjan_iitkgp@yahoo.com</item>
+        <item>rtomar@lnmiit.ac.in</item>
+        <item>soumitra@lnmiit.ac.in</item>
+        <item>abhisheksharma@lnmiit.ac.in</item>
+        <item>akshay.salimath@lnmiit.ac.in</item>
+        <item>divyang.rawal@gmail.com</item>
+        <item>kusum@lnmiit.ac.in</item>
+        <item>deepak.nair@lnmiit.ac.in</item>
+        <item>nupadhyay@lnmiit.ac.in</item>
+        <item>santosh.shah@lnmiit.ac.in</item>
+        <item>smrity.ece@lnmiit.ac.in</item>
+        <item>ddixit@lnmiit.ac.in</item>
+        <item>kapil.jainwal@lnmiit.ac.in</item>
+        <item>nikhil.sharma@lnmiit.ac.in</item>
+        <item>purnendu.karmakar@lnmiit.ac.in</item>
+        <item>sandeep.saini@lnmiit.ac.in</item>
+<item>
+joyeeta.singha@lnmiit.ac.in
+</item>
+    </string-array>
+    <string-array name="ece_faculty_contact">
+        <item> </item>
+        <item>+919001708555</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item>+919061467339</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item>+919772949546</item>
+        <item>+919783148133</item>
+        <item>+919599043368</item>
+        <item> </item>
+        <item>9983180460</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="mme_faculty_url">
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=20263&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=95&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=213&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=20278&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=147&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=20279&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=20270&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=20277&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=146&amp;command=profile_picamp;w=100&amp;h=100</item>
+    </string-array>
+    <string-array name="mme_faculty_name">
+        <item>Dr. Ashok Kumar Dargar</item>
+        <item>Dr. Kamal Kishore Khatri</item>
+        <item>Dr. Vikram Sharma</item>
+        <item>Dr. C K Nirala</item>
+        <item>Dr. Manoj Kumar</item>
+        <item>Dr. Mohit Makkar</item>
+        <item>Dr. Sandesh S. Chougule</item>
+        <item>Mr. Deepak Rajendra Unune</item>
+        <item>Mr. Prabin Kumar Jha</item>
+    </string-array>
+    <string-array name="mme_faculty_designation">
+        <item>Associate Professor</item>
+        <item>Associate Professor</item>
+        <item>Associate Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+    </string-array>
+    <string-array name="mme_faculty_email">
+        <item>dargarashokbnr@gmail.com</item>
+        <item>kk.khatri@lnmiit.ac.in</item>
+        <item>vikram.sharma@lnmiit.ac.in</item>
+        <item>nirala@lnmiit.ac.in</item>
+        <item>manojkumar@lnmiit.ac.in</item>
+        <item>mohit.makkar@lnmiit.ac.in</item>
+        <item>phd12110304@iiti.ac.in</item>
+        <item>deepunune@gmail.com</item>
+        <item>pkjha@lnmiit.ac.in</item>
+    </string-array>
+    <string-array name="mme_faculty_contact">
+        <item>+919829686661</item>
+        <item> </item>
+        <item>+919654637898</item>
+        <item>+918294403741</item>
+        <item> </item>
+        <item> </item>
+        <item>+919860678208</item>
+        <item>+918947965681</item>
+        <item> </item>
+    </string-array>
+
+
+    <string-array name="math_faculty_url">
+        <item>http://lnmiit.ac.in/images/system/noprofile.jpg</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=55&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/images/system/noprofile.jpg</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=196&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=141&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/images/system/noprofile.jpg</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=210&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=49&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+    </string-array>
+
+    <string-array name="math_faculty_name">
+        <item>Prof. Mohan Krishen Kadalbajoo</item>
+        <item>Dr. Ajit Patel</item>
+        <item>Dr. Pratibha Garg</item>
+        <item>Dr. Dheerendra Mishra</item>
+        <item>Dr. Manish Garg</item>
+        <item>Dr. Somnath Maiti</item>
+        <item>Dr. Sunil Kumar Gauttam</item>
+        <item>Dr. Vikas Gupta</item>
+    </string-array>
+
+    <string-array name="math_faculty_designation">
+        <item>Distinguished Professor</item>
+        <item>Associate Professor</item>
+        <item>Associate Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+    </string-array>
+
+    <string-array name="math_faculty_email">
+        <item>kadal@iitk.ac.in</item>
+        <item>apatel@lnmiit.ac.in</item>
+        <item>pratibhag@lnmiit.ac.in</item>
+        <item>dheerendra.mishra@lnmiit.ac.in</item>
+        <item>manishiitr8@gmail.com</item>
+        <item>somnath.maiti@lnmiit.ac.in</item>
+        <item>sgauttam@lnmiit.ac.in</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="math_faculty_contact">
+        <item>+919450346470</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+		<item>+911415191797
+</item>
+    </string-array>
+
+    <string-array name="physics_faculty_url">
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=76&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=20221&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=58&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=41&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=83&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=59&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=20249&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=44&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=20264&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=167&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=20266&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+    </string-array>
+    <string-array name="physics_faculty_name">
+        <item>Prof. Anupam Singh </item>
+        <item>Prof. Ganesh Datt Sharma</item>
+        <item>Dr. Somnath Biswas</item>
+        <item>Dr. Subhayan Biswas</item>
+        <item>Dr. Amit Neogi</item>
+        <item>Dr. Anjishnu Sarkar</item>
+        <item>Dr. Ashok Garai</item>
+        <item>Dr. Manish Kumar Singh</item>
+        <item>Dr. Nabyendu Das</item>
+        <item>Dr. Pomita Ghoshal</item>
+        <item>Dr. Rakesh Tibrewala</item>
+    </string-array>
+    <string-array name="physics_faculty_designation">
+        <item>Professor</item>
+        <item>Professor</item>
+        <item>Associate Professor</item>
+        <item>Associate Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+    </string-array>
+    <string-array name="physics_faculty_email">
+        <item>singh@lnmiit.ac.in</item>
+        <item>gdsharma273@gmail.com</item>
+        <item>drsomnathbiswas@gmail.com</item>
+        <item>subhayanb@gmail.com</item>
+        <item>amit.neogi@gmail.com</item>
+        <item>anjishnu@lnmiit.ac.in</item>
+        <item>ashok.garai@lnmiit.ac.in</item>
+        <item>mksingh@lnmiit.ac.in</item>
+        <item>nabyendu@lnmiit.ac.in</item>
+        <item>pghoshal@lnmiit.ac.in</item>
+        <item>rtibs@lnmiit.ac.in</item>
+    </string-array>
+    <string-array name="physics_faculty_contact">
+        <item> </item>
+        <item> </item>
+        <item>+917597171575</item>
+        <item>+919166592663</item>
+        <item>+919413839224</item>
+        <item> </item>
+        <item> </item>
+        <item>9530180458</item>
+        <item> </item>
+        <item>+917597492213</item>
+        <item> </item>
+    </string-array>
+
+
+    <string-array name="hss_faculty_url">
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=84&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=52&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=74&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=57&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=96&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+        <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=86&amp;command=profile_pic&amp;w=100&amp;h=100</item>
+
+    </string-array>
+    <string-array name="hss_faculty_name">
+        <item>Mr. Ambikapratap Singh</item>
+        <item>Dr. Manju Dhariwal</item>
+        <item>Dr. Rajbala Singh</item>
+        <item>Dr. Narendra Kumar</item>
+        <item>Dr. Surinder Singh Nehra</item>
+        <item>Dr. Usha Kanoongo</item>
+
+    </string-array>
+
+    <string-array name="hss_faculty_designation">
+        <item>Professor</item>
+        <item>Associate Professor</item>
+        <item>Associate Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+        <item>Assistant Professor</item>
+    </string-array>
+
+    <string-array name="hss_faculty_email">
+        <item>ambikapratapsingh1@gmail.com</item>
+        <item>manju@lnmiit.ac.in</item>
+        <item> </item>
+        <item>narendra@lnmiit.ac.in</item>
+        <item>surinder.nehra@lnmiit.ac.in</item>
+        <item>usha.kanoongo@gmail.com</item>
+    </string-array>
+
+    <string-array name="hss_faculty_contact">
+        <item>+919950207979</item>
+        <item> </item>
+        <item> </item>
+        <item>+919414061624</item>
+        <item>+919460586151</item>
+        <item>+919950656775</item>
+    </string-array>
+    <string name="title_activity_web">WebActivity</string>
+    <string name="action_loadbrowser">Open in Browser</string>
+    <string name="action_copylink">Copy link</string>
+    <string name="action_downloadpdf">Download Pdf</string>
+    <string name="no_data_available">No Updates</string>
+
+    <string name="director_image_link">http://lnmiit.ac.in/images/DirectorPhoto.jpg</string>
+
+    <string name="foundation">
+        The Lakshmi &amp; Usha Mittal Foundation is a charitable trust founded by the Steel Baron Mr. Lakshmi N. Mittal. It is engaged in various philanthropic activities for relief ‚ rehabilitation ‚ socio-economic development and education. Foundation’s thrust in the area of education is distinct
+It has set up LNM IIT at Jaipur in collaboration with the Government of Rajasthan. This institute with a large campus ‚ infrastructure and distinguished faculty is aimed to be world–class institute of excellence. For women ‚ “ Usha Mittal Institute of Technology ” is being set up in SNDT Women’s University ‚ Mumbai by the foundation. It has contributed a handsome amount to the prestigious Indian School of Business at Hyderabad for development of business education.
+Many charitable projects have been undertaken in Rajasthan where the founders of the trust have their roots‚ such as‚ supply of drinking water to famine affected villages‚ medicine‚ fodder for cattle‚ distribution of improved seeds, fertilizers to needy villagers‚ distribution of tricycles to handicapped children‚ providing school dress‚ fees‚ stationery and spectacles to poor school children‚ etc. Numbers of primary health centers have been opened in various villages where free medicine and treatment is provided besides undertaking programs on health education and family planning programs are being organized on a big scale and thousands of poor people have been benefited.
+The foundation has helped build a new hospital in Kutch (Gujrat) after the devastating earthquake. It has also contributed large amount to the drought relief fund of the Chief Minister of Rajasthan. A big grant has been given by the Foundation for rehabilitation of people in the tsunami affected areas of south India. The Foundation is envisaging several other projects, which will not only continue to help the poor but also enable them to earn their livelihood so that they can improve the quality of their lives and live with dignity.
+    </string>
+
+    <string name="vision">
+        To establish world class platform for creation of knowledge through quality research and its dissemination through technologically enabled teaching - learning pedagogy in the field of science, technology, engineering, arts and management. To become a catalyst in the societal and national development, by ensuring continuous interaction with industry and other academic and research institutions in India and abroad.
+    </string>
+    <string name="mission">
+        To offer state of the art undergraduate programs in IT &amp; ITES as well as core disciplines with emphasis on strong fundamentals
+To establish centers of excellence in emerging areas to provide significant breakthrough required to solve real world problems
+To make The LNMIIT as the most preferred institute for higher education across the country
+To create intellectual property through innovations, quality research publications and patents
+To instill core values of excellence, integrity, teamwork, professional ethics and environmental concerns
+To foster and nurture leadership and entrepreneurial qualities and lifelong learning amongst students, research scholars, faculty and staff of The LNMIIT
+
+
+
+
+    </string>
+
+    <string name="objectives">
+        To start innovative PG programs in humanities and social sciences, basic sciences, engineering and technology
+To focus on PhD in all disciplines
+To participate in e-governance and similar projects of the state of Rajasthan
+To enhance participation in ITRA projects of MIT .
+To optimize use of critical resources by multitasking
+To establish vibrant and strong alumni network
+To organize regular conferences to enhance networking and brand equity
+To emphasize on knowledge and skill development at all levels
+To build sizable corpus through smart savings, donations from philanthropic organizations and alumni contributions towards meeting specific objectives
+
+
+    </string>
+
+    <string name="director_message">
+        Dear Students,
+Welcome to LNMIIT Campus for the academic session 2016 - 17. Past couple of years would have been full of hard work and anxiety for you and your parents. This is the first step in your professional career. Let it not be tentative but a firm one. Having decided to be in the Engineering Profession, make the best use of the time, energy and the opportunities provided to you at LNMIIT. In this endeavor self discipline and healthy lifestyle would be crucial.
+We understand that adjusting to a new environment away from home will take some time. But soon these days will pass and you would be comfortable in this new home away from home. There are avenues available to you for your creative expression and talent which you would come to know in due course of time. Apart from academics all these are essential for your overall personality development. Wishing you fruitful and productive stay at LNMIIT.
+    </string>
+
+    <string-array name="council">
+        <item>Technical</item>
+        <item>Cultural</item>
+        <item>Sports</item>
+    </string-array>
+    <string-array name="description">
+        <item>  We the science and technology council of LNMIIT are the backbone of our university.The phoenix club organizes various events in the field of robotics. The cybros provides training inthe field of networking,programming and conductsvarious programming contests. The literary committee that is considered to be the most elite groupof our institution, helps in enhancing the intellectual perspectiveof our students. With lots of literary events organized round the year, the students are exposed to the important skills of group discussions, debate, communication etc. The quiz club, which is by far the mostsuccesful club of the institution is one of the most popular quizzing body in northern India.The E-cell aims at developing an entrepreneurial spirit amongst the students.</item>
+        <item>
+            The Cultural Council manages a plethora of events, workshops and club activities throughout the year.
+                 Its main objectives are to provide the students with an exposure and a platform to learn, enjoy and sho
+                 wcase their talents in the fields of Dance, Music, Arts, Social Initiative Programs, Health Awareness Programs, Cl
+                 eanliness and Donation Drives for the poor and the needy. Cultural events like the Dan
+                 ce Premier League, Gusto-X (Dandiya night), and Rubaroo (Fresher party) are organised by the Cultura
+                 l Council with the help of clubs like dance club, drama club, music club, art n craft club, nukkad mandali, fashion clu
+                 b, movie club, photography club, and Sankalp club.
+        </item>
+        <item>   The Sports Council is placed among elite in the echelon of various councils in the Institute.
+                 We help provide students the arena to exhibit the sports dexterity present in us. The Sports Council nurtures
+                 talent by organizing various events, camps and coaching to help polish the diamond in you, from Karate Classes
+                  to Chess Tournaments to Yoga Sessions to Track Events, we leave no stone unturned in catering to the desires of
+                   the students. We take immense pride in Organizing the annual College Sports Festival Desportivos where students
+                   from various colleges converge for a carnival of their life. Annual Sports Day is also organized alongside, many
+                    sport specific tournaments like Badminton Premiere League, Football Premiere League and Basketball League which
+                    are held Intra-College so as provide students maximum exposure to sports. It is our endeavor to see LNMIIT in
+                    the pantheon of sports giants and make a name to reckon with in the arena of sports.</item>
+    </string-array>
+    <string-array name="fest_name">
+        <item>Vivacity</item>
+        <item>Plinth</item>
+        <item>Desportivos</item>
+    </string-array>
+    <string-array name="fest_des">
+        <item>Vivacity is an insane force of mharo Rajasthan, sweeping the nation with its array of colors while celebrating the spheres of life. One of the most awaited college festivals of Rajasthan, Vivacity has a footfall of more than 25000 crazed spectators to this entertainment gala situated in the majestic Aravallis of Jaipur. Vivacity 2013 was a ballad of iving Bollywood, celebrating 100 years of Indian Cinema.</item>
+        <item>Plinth is the annual inter college techno-management-literary festival of The LNM Institude of Information Technology. In 2011 LNMIIT introduced for the first time its Techno-Management Literary fest.</item>
+        <item>Desportivos is the annual Sports fest of The LNM Institute of Information Technology, Jaipur. Situated in the midst of the Aravalli , it is spread in an area of 100 acres and boasts of the finest sports  infrastructure that an Institute campus an aspire to have.Desportivos, attracts a wide spectrum of the youth from all over the country  and this year we had total footfall of over 5,000 students during the 3 days of the fest. The fest incorporated a wide range of outdoor as well as indoor sports activities like cricket, badminton, volleyball, basketball, football, table tennis, chess, and carom.</item>
+    </string-array>
+    <string-array name="gymkhana_name">
+        <item>Shubham Dangi</item>
+        <item>Samyak Dutt Gupta</item>
+        <item>Prakhar Deep</item>
+        <item>Akshay Modi</item>
+        <item>Vipul Behl</item>
+        <item>Shubham Vashisth</item>
+    </string-array>
+    <string-array name="gymkhana_designation">
+        <item>President</item>
+        <item>Vice-President</item>
+        <item>Finanace Convener</item>
+        <item>Gen.Sec.Cultural</item>
+        <item>Gen.Sec.Science-Tech</item>
+        <item>Gen.Sec.Sports</item>
+    </string-array>
+    <string-array name="gymkhana_links">
+        <item>"http://bit.ly/2d23ou6"</item>
+        <item>"http://bit.ly/2cNwc7L"</item>
+        <item>"http://bit.ly/2dgIqqw"</item>
+        <item></item>
+        <item>http://bit.ly/2cGDfBA</item>
+        <item>http://bit.ly/2cNGHYM</item>
+    </string-array>
+    <string-array name="gymkhana_email">
+        <item>"sdangi724@gmail.com"</item>
+        <item>"samyakduttgupta@gmail.com"</item>
+        <item>"deepprakhar24@gmail.com"</item>
+        <item>"akshaymodi.lnmiit@gmail.com"</item>
+        <item>"vbehl03@gmail.com"</item>
+        <item>"shubhamv1204@gmail.com"</item>
+    </string-array>
+    <string-array name="gymkhana_phone">
+        <item>+919828853059</item>
+        <item>+919462066697</item>
+        <item>+919413172823</item>
+        <item>+917597814370</item>
+        <item>+919468590302</item>
+        <item>+917073102810</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
