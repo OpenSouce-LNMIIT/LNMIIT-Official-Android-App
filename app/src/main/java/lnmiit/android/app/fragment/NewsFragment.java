@@ -117,6 +117,7 @@ public class NewsFragment extends Fragment {
         public void onReceive(Context context, Intent intent) {
 
             ArrayList<? extends Parcelable> list =  intent.getParcelableArrayListExtra(CrawDataService.DATA_NEWS);
+            updateList.clear();
             for(int i = 0 ; i < list.size() ; i++){
                 updateList.add((UpdateDetail) list.get(i));
             }

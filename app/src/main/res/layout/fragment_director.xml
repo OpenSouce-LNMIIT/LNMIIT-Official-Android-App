@@ -26,19 +26,11 @@
             android:id="@+id/iv_director"
             android:layout_gravity="center"
             android:src="@drawable/ic_person"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/director_message"
-                android:textSize="16sp"
-                android:textIsSelectable="true"
-                android:textStyle="italic"
-                android:layout_marginLeft="@dimen/detailedmargin"
-                android:layout_marginRight="@dimen/detailedmargin"
-                android:layout_marginTop="@dimen/detailedmargin"
-                android:layout_marginBottom="@dimen/detailedmargin"
-                android:lineSpacingExtra="1dp"
-                />
+            <android.support.v7.widget.RecyclerView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:id="@+id/recycle_director"
+                android:scrollbars="vertical"/>
         </LinearLayout>
     </android.support.v7.widget.CardView>
 </LinearLayout>

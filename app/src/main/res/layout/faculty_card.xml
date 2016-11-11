@@ -77,14 +77,14 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/ic_email"
+                    android:src="@drawable/ic_email"
                     android:id="@+id/ivemail"
                     android:layout_marginRight="@dimen/margin_icon_textview"/>
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/ic_phone"
+                    android:src="@drawable/ic_phone"
                     android:id="@+id/ivphone"
                     android:layout_marginLeft="@dimen/margin_icon_textview" />
 

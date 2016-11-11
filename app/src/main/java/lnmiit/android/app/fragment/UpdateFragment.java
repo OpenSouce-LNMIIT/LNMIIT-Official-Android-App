@@ -88,6 +88,7 @@ public class UpdateFragment extends Fragment {
     public void onResume() {
         super.onResume();
 
+
         IntentFilter broadcastFilter = new IntentFilter(UpdateReceiver.INTENT_ACTION);
 
         updateReceiver = new UpdateReceiver();
@@ -114,10 +115,13 @@ public class UpdateFragment extends Fragment {
         @Override
         public void onReceive(Context context, Intent intent) {
 
+
             ArrayList<? extends Parcelable> list =  intent.getParcelableArrayListExtra(CrawDataService.DATA_UPDATE);
+            updateList.clear();
             for(int i = 0 ; i < list.size() ; i++){
                 updateList.add((UpdateDetail) list.get(i));
             }
+
             updateAdapter.notifyDataSetChanged();
 
             if(updateList.isEmpty()){
