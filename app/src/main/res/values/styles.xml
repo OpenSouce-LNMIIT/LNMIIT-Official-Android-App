@@ -23,4 +23,10 @@
 
     </style>
 
+
+    <style name="MytabStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">20dp</item>
+
+    </style>
+
 </resources>

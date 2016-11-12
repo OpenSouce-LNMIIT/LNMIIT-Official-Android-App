@@ -20,6 +20,8 @@ import com.bumptech.glide.Glide;
 
 import lnmiit.android.app.R;
 import lnmiit.android.app.fragment.AboutUsFragment;
+import lnmiit.android.app.fragment.AcademicsFragment;
+import lnmiit.android.app.fragment.AdmissionsFragment;
 import lnmiit.android.app.fragment.FacultyFragment;
 import lnmiit.android.app.fragment.HomeFragment;
 import lnmiit.android.app.fragment.StudentFragment;
@@ -104,7 +106,11 @@ public class MainActivity extends AppCompatActivity
             getSupportActionBar().setTitle("LNMIIT");
             Glide.with(this).load(R.drawable.pic).into(imageView);
         } else if (id == R.id.academics) {
+            fragment = new AcademicsFragment();
+            getSupportActionBar().setTitle("Academics");
         } else if (id == R.id.admission) {
+            fragment = new AdmissionsFragment();
+            getSupportActionBar().setTitle("Admissions");
         } else if (id == R.id.placement) {
         } else if (id == R.id.administration) {
         } else if (id == R.id.faculty) {
