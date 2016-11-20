@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_backgrnd"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/global_margin"
+        android:orientation="vertical"
+        android:padding="@dimen/global_padding">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/global_margin">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/program"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="left"
+                android:padding="@dimen/global_padding"
+                android:text="Programs Offered"
+                android:textColor="@color/text_color_primary"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.5sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@color/divider_white" />
+
+            <TextView
+                android:id="@+id/mtech"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left_right"
+                android:layout_marginRight="@dimen/margin_left_right"
+                android:layout_marginTop="@dimen/margin_top"
+                android:paddingTop="@dimen/padding_top"
+                android:text="Master of Technology(M.Tech)"
+                android:textColor="@color/text_color_primary"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/about_mtech"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_bottom"
+                android:layout_marginLeft="@dimen/margin_left_right"
+                android:layout_marginRight="@dimen/margin_left_right"
+                android:layout_marginTop="@dimen/margin_top"
+                android:paddingBottom="@dimen/padding_bottom"
+                android:text="
+•Computer Science and Engineering\n
+•Computer Science and Engineering with specialization in Software Engineering\n
+•Computer Science and Engineering with specialization in Data Analytics\n
+•Electronics and Communication Engineering\n
+•Electronics and Communication Engineering with Specialization in Mobile Communication
+        "
+                android:textSize="@dimen/norml_text"
+                android:textColor="@color/text_color_secondary"/>
+
+
+            <TextView
+                android:id="@+id/ms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left_right"
+                android:layout_marginRight="@dimen/margin_left_right"
+                android:paddingTop="@dimen/padding_top"
+                android:text="Master Of Science"
+                android:textColor="@color/text_color_primary"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/about_ms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_bottom"
+                android:layout_marginLeft="@dimen/margin_left_right"
+                android:layout_marginRight="@dimen/margin_left_right"
+                android:layout_marginTop="@dimen/margin_top"
+                android:paddingBottom="@dimen/padding_bottom"
+                android:text="
+•Computer Science and Engineering\n
+•Electronic and Communication Engineering\n
+•Communication and Computer Engineering
+        "
+                android:textColor="@color/text_color_secondary"
+                android:textSize="@dimen/norml_text" />
+
+
+            <TextView
+                android:id="@+id/phd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left_right"
+                android:layout_marginRight="@dimen/margin_left_right"
+                android:paddingTop="@dimen/padding_top"
+                android:text="Doctors of Philosophy(Ph.D)"
+                android:textColor="@color/text_color_primary"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/about_phd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_bottom"
+                android:layout_marginLeft="@dimen/margin_left_right"
+                android:layout_marginRight="@dimen/margin_left_right"
+                android:layout_marginTop="@dimen/margin_top"
+                android:paddingBottom="@dimen/padding_bottom"
+                android:text="
+•Computer Science and Engineering\n
+•Electronics and Communications Engineering\n
+•Physics\n
+•Mathematics\n
+•Humanities and Social Sciences
+        "
+                android:textColor="@color/text_color_secondary"
+                android:textSize="@dimen/norml_text" />
+
+        </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/global_margin">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/eligibility"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="left"
+                android:padding="@dimen/global_padding"
+                android:text="Eligibility"
+                android:textColor="@color/text_color_primary"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.5sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@color/divider_white" />
+
+            <TextView
+                android:id="@+id/engg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left_right"
+                android:layout_marginRight="@dimen/margin_left_right"
+                android:paddingTop="@dimen/padding_top"
+                android:text="For Engineering,Physics,and Mathematics Disciplines"
+                android:textColor="@color/text_color_primary"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/about_engg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_bottom"
+                android:layout_marginLeft="@dimen/margin_left_right"
+                android:layout_marginRight="@dimen/margin_left_right"
+                android:layout_marginTop="@dimen/margin_top"
+                android:paddingBottom="@dimen/padding_bottom"
+                android:text="The applicants for M.Tech and M.S. must have a Bachelor's Degree in Engineering or a Master's degree in Science with minimum 60 percent/6.5 CPI (on a 10 point scale). The applicant for PhD should preferably have a Master's Degree in Engineering or a Master's Degree in relevant subject with minimum 60 percent/6.5 CPI (on a 10 point scale). Exceptional candidates with a Bachelor's degree in Engineering may also be considered."
+                android:textColor="@color/text_color_secondary"
+                android:textSize="@dimen/norml_text" />
+
+
+            <TextView
+                android:id="@+id/humanities"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left_right"
+                android:layout_marginRight="@dimen/margin_left_right"
+                android:paddingTop="@dimen/padding_top"
+                android:text="For Humanities and Social Science"
+                android:textColor="@color/text_color_primary"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/about_hmt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_bottom"
+                android:layout_marginLeft="@dimen/margin_left_right"
+                android:layout_marginRight="@dimen/margin_left_right"
+                android:layout_marginTop="@dimen/margin_top"
+                android:padding="5dp"
+                android:paddingBottom="@dimen/padding_bottom"
+                android:text="The applicant for Ph.D. should have a Master's Degree in relevant subject with minimum 55 Percent marks (or Equivalent)."
+                android:textColor="@color/text_color_secondary"
+                android:textSize="@dimen/norml_text" />
+
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/global_margin">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/contact_us"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:gravity="left"
+                android:padding="@dimen/global_padding"
+                android:text="Contact Us"
+                android:textColor="@color/text_color_primary"
+                android:textSize="22sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.5sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@color/divider_white" />
+
+            <TextView
+                android:id="@+id/about_contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_bottom"
+                android:layout_marginLeft="@dimen/margin_left_right"
+                android:layout_marginRight="@dimen/margin_left_right"
+                android:layout_marginTop="@dimen/margin_top"
+                android:paddingBottom="@dimen/padding_bottom"
+                android:text="The convener of UG admissions,\nThe LNM Institute of Information Technology,\nRupa ki Nangal, Post-Sumel, Via-Jamdoli \nJaipur-302031, (Rajasthan) INDIA.\nConvener of PG Admissions: +91-141-268-9011 / 12 / 13"
+                android:textColor="@color/text_color_secondary"
+                android:textSize="@dimen/norml_text" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

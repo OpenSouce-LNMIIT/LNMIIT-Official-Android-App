@@ -30,4 +30,14 @@
     <dimen name="emptyTextSize">26dp</dimen>
     <dimen name="image_size">100dp</dimen>
     <dimen name="detailedmargin">10dp</dimen>
+    <dimen name="head_text">20sp</dimen>
+    <dimen name="norml_text">16sp</dimen>
+    <dimen name="global_padding">5dp</dimen>
+    <dimen name="global_margin">8dp</dimen>
+    <dimen name="margin_left_right">16dp</dimen>
+    <dimen name="padding_bottom">10dp</dimen>
+    <dimen name="margin_bottom">2dp</dimen>
+    <dimen name="margin_top">8dp</dimen>
+    <dimen name="padding_top">5dp</dimen>
+    <dimen name="padding_left">5dp</dimen>
 </resources>

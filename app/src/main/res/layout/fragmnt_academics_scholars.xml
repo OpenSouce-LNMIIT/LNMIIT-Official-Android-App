@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="right|top"
+    android:background="@color/main_backgrnd"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/global_margin"
+        android:orientation="vertical"
+        android:padding="@dimen/global_padding">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/global_margin">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/intro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left_right"
+                android:layout_marginRight="@dimen/margin_left_right"
+                android:gravity="left"
+                android:padding="@dimen/global_padding"
+                android:text="Introduction"
+                android:textColor="@color/text_color_primary"
+                android:textSize="@dimen/head_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.5sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@color/divider_white" />
+
+            <TextView
+                android:id="@+id/abt_intro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_bottom"
+                android:layout_marginLeft="@dimen/margin_left_right"
+                android:layout_marginRight="@dimen/margin_left_right"
+                android:layout_marginTop="8dp"
+                android:paddingBottom="@dimen/padding_bottom"
+                android:padding="5dp"
+                android:text="@string/scholars_intro"
+                android:textColor="@color/text_color_secondary"
+                android:textSize="@dimen/norml_text" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/global_margin">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/eligibility"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left_right"
+                android:layout_marginRight="@dimen/margin_left_right"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="Eligibility"
+                android:textColor="@color/text_color_primary"
+                android:textSize="@dimen/head_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.5sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@color/divider_white" />
+
+            <TextView
+                android:id="@+id/about_eligibility"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_bottom"
+                android:layout_marginLeft="@dimen/margin_left_right"
+                android:layout_marginRight="@dimen/margin_left_right"
+                android:layout_marginTop="@dimen/margin_top"
+                android:paddingBottom="@dimen/padding_bottom"
+                android:padding="5dp"
+                android:text="@string/eligibility"
+                android:textColor="@color/text_color_secondary"
+                android:textSize="@dimen/norml_text" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/global_margin">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nature_work"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left_right"
+                android:layout_marginRight="@dimen/margin_left_right"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="Nature of Work"
+                android:textColor="@color/text_color_primary"
+                android:textSize="@dimen/head_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.5sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@color/divider_white" />
+
+            <TextView
+                android:id="@+id/about_now"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_bottom"
+                android:layout_marginLeft="@dimen/margin_left_right"
+                android:layout_marginRight="@dimen/margin_left_right"
+                android:layout_marginTop="@dimen/margin_top"
+                android:paddingBottom="@dimen/padding_bottom"
+                android:padding="5dp"
+                android:text="@string/nature_of_work"
+                android:textColor="@color/text_color_secondary"
+                android:textSize="@dimen/norml_text" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/global_margin">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/oppurtunities"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left_right"
+                android:layout_marginRight="@dimen/margin_left_right"
+                android:gravity="left"
+                android:padding="5dp"
+                android:paddingTop="@dimen/padding_top"
+                android:text="Opportunities for Higher Studies"
+                android:textColor="@color/text_color_primary"
+                android:textSize="@dimen/head_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.5sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@color/divider_white" />
+
+            <TextView
+                android:id="@+id/about_oppurtunity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_bottom"
+                android:layout_marginLeft="@dimen/margin_left_right"
+                android:layout_marginRight="@dimen/margin_left_right"
+                android:layout_marginTop="@dimen/margin_top"
+                android:paddingBottom="@dimen/padding_bottom"
+                android:padding="5dp"
+                android:text="@string/opportunity"
+                android:textColor="@color/text_color_secondary"
+                android:textSize="16sp" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/global_margin">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/scholarship"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left_right"
+                android:layout_marginRight="@dimen/margin_left_right"
+                android:gravity="left"
+                android:padding="5dp"
+                android:paddingTop="@dimen/padding_top"
+                android:text="Scholarship"
+                android:textColor="@color/text_color_primary"
+                android:textSize="@dimen/head_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.5sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@color/divider_white" />
+
+            <TextView
+                android:id="@+id/about_scholarship"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_bottom"
+                android:layout_marginLeft="@dimen/margin_left_right"
+                android:layout_marginRight="@dimen/margin_left_right"
+                android:layout_marginTop="@dimen/margin_top"
+                android:paddingBottom="@dimen/padding_bottom"
+                android:padding="5dp"
+                android:text="@string/scholarshp"
+                android:textColor="@color/text_color_secondary"
+                android:textSize="16sp" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/global_margin">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/apply"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left_right"
+                android:layout_marginRight="@dimen/margin_left_right"
+                android:gravity="left"
+                android:paddingTop="@dimen/padding_top"
+                android:padding="5dp"
+                android:text="How to Apply"
+                android:textColor="@color/text_color_primary"
+                android:textSize="@dimen/head_text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.5sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@color/divider_white" />
+
+            <TextView
+                android:id="@+id/about_apply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_bottom"
+                android:layout_marginLeft="@dimen/margin_left_right"
+                android:layout_marginRight="@dimen/margin_left_right"
+                android:layout_marginTop="@dimen/margin_top"
+                android:paddingBottom="@dimen/padding_bottom"
+                android:padding="5dp"
+                android:text="Interested candidates are requested to send their biodata to Dr Raghuvir Tomar at rtomar@lnmiit.ac.in "
+                android:textColor="@color/text_color_secondary"
+                android:textSize="@dimen/norml_text" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
