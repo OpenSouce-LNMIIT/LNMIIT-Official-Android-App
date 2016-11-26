@@ -635,4 +635,48 @@ The Institute is currently running the following Four Year B.Tech Programmes:-</
     <string name="abt_contact">The convener of UG admissions,\nThe LNM Institute of Information Technology,\nRupa ki Nangal, Post-Sumel, Via-Jamdoli \nJaipur-302031, (Rajasthan) INDIA.\nConvener of PG Admissions: +91-141-268-9011 / 12 / 13</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="admin_name">
+        <item>Prof. S.S. Gokhale</item>
+        <item>Col. Mohanjeet Singh Pathania</item>
+        <item>Ashok Kumar Salecha</item>
+        <item>Abhijit Galav</item>
+        <item>Chand Singh Panwar</item>
+        <item>Shweta Pandey</item>
+        <item>Manuj Sharma</item>
+    </string-array>
+    <string-array name="admin_designation">
+        <item>Director</item>
+        <item>Registrar</item>
+        <item>Finance &amp; Purchase Officer</item>
+        <item>Project And Maintenance Manager</item>
+        <item>Resident Medical Officer</item>
+        <item>Assistant Librarian</item>
+        <item>Training And Placement Officer</item>
+    </string-array>
+    <string-array name="admin_mail">
+        <item>ssgok1@gmail.com</item>
+        <item>mjs21pat@yahoo.co.in</item>
+        <item>aksalecha2010@gmail.com</item>
+        <item>abhijit.galav@gmail.com</item>
+        <item>chandsinghpanwar@gmail.com</item>
+        <item>shweta.pandey@lnmiit.ac.in</item>
+        <item>bkmanuj13@gmail.com</item>
+    </string-array>
+
+    <string-array name="emergency_name">
+        <item>Dr. C.S. Panwar(Medical Officer)</item>
+        <item>Mr. Nahar Singh</item>
+        <item>Smt. Pushpa Devi</item>
+        <item>Bus Information(Main Gate)</item>
+        <item>Central Library</item>
+        <item>Administration Office</item>
+    </string-array>
+    <string-array name="emergency_phone">
+        <item>7737453601</item>
+        <item>9461692225</item>
+        <item>8764038742</item>
+        <item>01415191757</item>
+        <item></item>
+        <item>01415189211</item>
+    </string-array>
 </resources>

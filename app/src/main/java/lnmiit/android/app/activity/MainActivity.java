@@ -21,7 +21,9 @@ import com.bumptech.glide.Glide;
 import lnmiit.android.app.R;
 import lnmiit.android.app.fragment.AboutUsFragment;
 import lnmiit.android.app.fragment.AcademicsFragment;
+import lnmiit.android.app.fragment.AdministrationFragment;
 import lnmiit.android.app.fragment.AdmissionsFragment;
+import lnmiit.android.app.fragment.EmergencyFragment;
 import lnmiit.android.app.fragment.FacultyFragment;
 import lnmiit.android.app.fragment.HomeFragment;
 import lnmiit.android.app.fragment.StudentFragment;
@@ -113,6 +115,8 @@ public class MainActivity extends AppCompatActivity
             getSupportActionBar().setTitle("Admissions");
         } else if (id == R.id.placement) {
         } else if (id == R.id.administration) {
+            fragment = new AdministrationFragment();
+            getSupportActionBar().setTitle("Administration");
         } else if (id == R.id.faculty) {
             fragment = new FacultyFragment();
             getSupportActionBar().setTitle("Faculty");
@@ -121,6 +125,8 @@ public class MainActivity extends AppCompatActivity
             Glide.with(this).load(R.drawable.student).into(imageView);
             getSupportActionBar().setTitle("Student");
         } else if (id == R.id.emergency) {
+            fragment = new EmergencyFragment();
+            getSupportActionBar().setTitle("Emergency");
         } else if (id == R.id.bus) {
         } else if (id == R.id.map) {
         } else if (id == R.id.dining) {
