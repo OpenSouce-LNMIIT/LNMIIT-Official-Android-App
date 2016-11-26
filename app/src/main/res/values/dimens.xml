@@ -40,4 +40,6 @@
     <dimen name="margin_top">8dp</dimen>
     <dimen name="padding_top">5dp</dimen>
     <dimen name="padding_left">5dp</dimen>
+    <dimen name="card_radius">2dp</dimen>
+    <dimen name="card_elevation">3dp</dimen>
 </resources>
