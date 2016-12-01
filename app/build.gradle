@@ -9,6 +9,10 @@ android {
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
     }
     buildTypes {
         release {
@@ -25,7 +29,9 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.4.0'
     compile 'com.android.support:design:23.4.0'
-    compile 'com.android.support:support-v4:23.4.0'
+    compile('com.android.support:support-v4:23.4.0') {
+        force = true;
+    }
     compile 'com.android.support:support-vector-drawable:23.4.0'
     compile 'com.jakewharton:butterknife:8.4.0'
     compile 'com.android.support:recyclerview-v7:23.4.0'
@@ -33,4 +39,5 @@ dependencies {
     compile 'com.github.bumptech.glide:glide:3.7.0'
     compile 'jp.wasabeef:glide-transformations:2.0.1'
     compile 'org.jsoup:jsoup:1.7.1'
+    compile 'com.google.android.gms:play-services-maps:9.6.1'
 }
