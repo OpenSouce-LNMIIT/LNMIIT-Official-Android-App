@@ -1,6 +1,7 @@
 package lnmiit.android.app.fragment;
 
 
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.GridLayoutManager;
@@ -37,10 +38,16 @@ public class GymkhanaStudentFragment extends Fragment {
         email = getResources().getStringArray(R.array.gymkhana_email);
         phone = getResources().getStringArray(R.array.gymkhana_phone);
 
+        list = new ArrayList<>();
         recyclerView = (RecyclerView) view.findViewById(R.id.recycle_gymkhana);
         adapter = new FacultyAdapter(getContext(), list);
-        gridLayoutManager = new GridLayoutManager(getContext(), 2);
-        recyclerView.setLayoutManager(gridLayoutManager);
+        if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT) {
+            RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(getContext(), 2);
+            recyclerView.setLayoutManager(mLayoutManager);
+        } else {
+            RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(getContext(), 3);
+            recyclerView.setLayoutManager(mLayoutManager);
+        }
         recyclerView.setAdapter(adapter);
         loadGymkhanaDetails();
         return view;

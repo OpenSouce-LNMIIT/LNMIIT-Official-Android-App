@@ -18,8 +18,8 @@ import lnmiit.android.app.R;
  * A simple {@link Fragment} subclass.
  */
 public class AcademicsUG extends Fragment {
-    TextView ece, cse, mme, cce, me;
-    Button cseb, eceb, mmeb, cceb, meb, bt_cse,bt_ece,bt_cce,bt_mme,bt_me;
+    TextView ece, cse, mme, cce, me ,bt_cse ,bt_ece,bt_cce,bt_mme,bt_me ;
+    Button cseb, eceb, mmeb, cceb, meb;
     ScrollView scroll;
 
     public AcademicsUG() {
@@ -44,11 +44,11 @@ public class AcademicsUG extends Fragment {
         cceb = (Button) view.findViewById(R.id.b_cce);
         mmeb = (Button) view.findViewById(R.id.b_mme);
         meb = (Button) view.findViewById(R.id.b_me);
-        bt_cse = (Button) view.findViewById(R.id.btn_cse);
-        bt_ece = (Button) view.findViewById(R.id.btn_ece);
-        bt_cce = (Button) view.findViewById(R.id.btn_cce);
-        bt_mme = (Button) view.findViewById(R.id.btn_mme);
-        bt_me = (Button) view.findViewById(R.id.btn_me);
+        bt_cse = (TextView) view.findViewById(R.id.btn_cse);
+        bt_ece = (TextView)view.findViewById(R.id.btn_ece);
+        bt_cce = (TextView) view.findViewById(R.id.btn_cce);
+        bt_mme = (TextView) view.findViewById(R.id.btn_mme);
+        bt_me = (TextView) view.findViewById(R.id.btn_me);
 
 
         cce.setVisibility(View.GONE);

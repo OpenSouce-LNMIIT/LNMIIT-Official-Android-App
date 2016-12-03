@@ -27,12 +27,12 @@
                     android:id="@+id/programs"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
+                    android:layout_marginLeft="@dimen/margin_left_right"
+                    android:layout_marginRight="@dimen/margin_left_right"
                     android:gravity="left"
                     android:padding="@dimen/global_padding"
                     android:text="Programs Offered"
-                    android:textColor="@color/text_color_primary"
+                    android:textColor="@color/colorPrimary"
                     android:textSize="22sp" />
 
                 <TextView
@@ -40,8 +40,8 @@
                     android:layout_height="0.5sp"
                     android:layout_gravity="center"
                     android:layout_marginBottom="5dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
+                    android:layout_marginLeft="@dimen/margin_left_right"
+                    android:layout_marginRight="@dimen/margin_left_right"
                     android:background="@color/divider_white" />
 
                 <TextView
@@ -54,7 +54,7 @@
                     android:layout_marginTop="@dimen/margin_top"
                     android:padding="5dp"
                     android:paddingBottom="@dimen/padding_bottom"
-                    android:text="•Computer Science and Engineering\n•Electronics and Communication Engineering\n•Communication and Computer Engineering\n•Engineering Physics\n•Mathematics and Information Technology\n•Mechatronics Engineering"
+                    android:text="@string/programs"
                     android:textColor="@color/text_color_secondary"
                     android:textSize="@dimen/norml_text" />
 
@@ -76,12 +76,12 @@
                     android:id="@+id/eligibility"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
+                    android:layout_marginLeft="@dimen/margin_left_right"
+                    android:layout_marginRight="@dimen/margin_left_right"
                     android:gravity="left"
                     android:padding="@dimen/global_padding"
                     android:text="Eligibility"
-                    android:textColor="@color/text_color_primary"
+                    android:textColor="@color/colorPrimary"
                     android:textSize="22sp" />
 
                 <TextView
@@ -89,8 +89,8 @@
                     android:layout_height="0.5sp"
                     android:layout_gravity="center"
                     android:layout_marginBottom="5dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
+                    android:layout_marginLeft="@dimen/margin_left_right"
+                    android:layout_marginRight="@dimen/margin_left_right"
                     android:background="@color/divider_white" />
 
                 <TextView
@@ -103,7 +103,7 @@
                     android:layout_marginTop="@dimen/margin_top"
                     android:padding="5dp"
                     android:paddingBottom="@dimen/padding_bottom"
-                    android:text="Students who will full fill the college criteria of JEE-Prelims and JEE-Advance exams are eligible for the admission."
+                    android:text="@string/eligibilty"
                     android:textColor="@color/text_color_secondary"
                     android:textSize="@dimen/norml_text" />
             </LinearLayout>
@@ -124,12 +124,12 @@
                     android:id="@+id/contact_us"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
+                    android:layout_marginLeft="@dimen/margin_left_right"
+                    android:layout_marginRight="@dimen/margin_left_right"
                     android:gravity="left"
                     android:padding="@dimen/global_padding"
                     android:text="Contact Us"
-                    android:textColor="@color/text_color_primary"
+                    android:textColor="@color/colorPrimary"
                     android:textSize="22sp" />
 
                 <TextView
@@ -137,8 +137,8 @@
                     android:layout_height="0.5sp"
                     android:layout_gravity="center"
                     android:layout_marginBottom="5dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
+                    android:layout_marginLeft="@dimen/margin_left_right"
+                    android:layout_marginRight="@dimen/margin_left_right"
                     android:background="@color/divider_white" />
 
                 <TextView

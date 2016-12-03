@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".activity.MainActivity">
 
-    <!-- TODO: Update blank fragment layout -->
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -39,7 +38,7 @@
                         android:gravity="left"
                         android:padding="@dimen/global_padding"
                         android:text="Introduction"
-                        android:textColor="@color/text_color_primary"
+                        android:textColor="@color/colorPrimary"
                         android:textSize="20sp" />
 
                     <TextView
@@ -85,7 +84,7 @@
                         android:gravity="left"
                         android:padding="5dp"
                         android:text="M.Tech"
-                        android:textColor="@color/text_color_primary"
+                        android:textColor="@color/colorPrimary"
                         android:textSize="@dimen/head_text" />
 
                     <TextView
@@ -131,7 +130,7 @@
                         android:gravity="left"
                         android:padding="@dimen/global_padding"
                         android:text="Ph.D Programs"
-                        android:textColor="@color/text_color_primary"
+                        android:textColor="@color/colorPrimary"
                         android:textSize="@dimen/head_text" />
 
                     <TextView

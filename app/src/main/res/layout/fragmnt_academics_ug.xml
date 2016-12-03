@@ -43,7 +43,7 @@
                         android:layout_marginRight="@dimen/margin_left_right"
                         android:padding="@dimen/global_padding"
                         android:text="Introduction"
-                        android:textColor="@color/text_color_primary"
+                        android:textColor="@color/colorPrimary"
                         android:textSize="@dimen/head_text" />
 
                     <TextView
@@ -87,16 +87,18 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
 
-                        <Button
+                        <TextView
                             android:id="@+id/btn_cse"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_left_right"
+                            android:layout_marginRight="@dimen/margin_left_right"
+                            android:padding="@dimen/global_padding"
                             android:layout_alignParentLeft="true"
                             android:background="#FFFFFF"
                             android:gravity="left|center"
-                            android:padding="5dp"
                             android:text="CSE"
-                            android:textColor="@color/text_color_primary"
+                            android:textColor="@color/colorPrimary"
                             android:textSize="@dimen/head_text" />
 
                         <Button
@@ -120,7 +122,8 @@
                         android:paddingBottom="@dimen/padding_bottom"
                         android:paddingLeft="5dp"
                         android:text="@string/ug_cse"
-                        android:textSize="@dimen/norml_text" />
+                        android:textSize="@dimen/norml_text"
+                        android:textColor="@color/text_color_secondary"/>
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -139,16 +142,18 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
 
-                        <Button
+                        <TextView
                             android:id="@+id/btn_ece"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_left_right"
+                            android:layout_marginRight="@dimen/margin_left_right"
+                            android:padding="@dimen/global_padding"
                             android:layout_alignParentLeft="true"
                             android:background="#FFFFFF"
                             android:gravity="left|center"
-                            android:padding="5dp"
                             android:text="ECE"
-                            android:textColor="@color/text_color_primary"
+                            android:textColor="@color/colorPrimary"
                             android:textSize="@dimen/head_text" />
 
                         <Button
@@ -172,7 +177,8 @@
                         android:paddingBottom="@dimen/padding_bottom"
                         android:paddingLeft="5dp"
                         android:text="@string/ug_ece"
-                        android:textSize="@dimen/norml_text" />
+                        android:textSize="@dimen/norml_text"
+                        android:textColor="@color/text_color_secondary"/>
 
                 </LinearLayout>
 
@@ -193,16 +199,18 @@
                         android:layout_height="match_parent">
 
 
-                        <Button
+                        <TextView
                             android:id="@+id/btn_cce"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_left_right"
+                            android:layout_marginRight="@dimen/margin_left_right"
+                            android:padding="@dimen/global_padding"
                             android:layout_alignParentLeft="true"
                             android:background="#FFFFFF"
                             android:gravity="left|center"
-                            android:padding="5dp"
                             android:text="CCE"
-                            android:textColor="@color/text_color_primary"
+                            android:textColor="@color/colorPrimary"
                             android:textSize="@dimen/head_text" />
 
                         <Button
@@ -226,7 +234,8 @@
                         android:paddingBottom="@dimen/padding_bottom"
                         android:paddingLeft="5dp"
                         android:text="@string/ug_cce"
-                        android:textSize="@dimen/norml_text" />
+                        android:textSize="@dimen/norml_text"
+                        android:textColor="@color/text_color_secondary"/>
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -247,16 +256,18 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
 
-                        <Button
+                        <TextView
                             android:id="@+id/btn_mme"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_left_right"
+                            android:layout_marginRight="@dimen/margin_left_right"
+                            android:padding="@dimen/global_padding"
                             android:layout_alignParentLeft="true"
                             android:background="#FFFFFF"
                             android:gravity="left|center"
-                            android:padding="5dp"
-                            android:text="Mechatronics Engineering"
-                            android:textColor="@color/text_color_primary"
+                            android:text="MME"
+                            android:textColor="@color/colorPrimary"
                             android:textSize="@dimen/head_text" />
 
                         <Button
@@ -280,7 +291,8 @@
                         android:paddingBottom="@dimen/padding_bottom"
                         android:paddingLeft="5dp"
                         android:text="@string/ug_mme"
-                        android:textSize="@dimen/norml_text" />
+                        android:textSize="@dimen/norml_text"
+                        android:textColor="@color/text_color_secondary"/>
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -299,16 +311,18 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
 
-                        <Button
+                        <TextView
                             android:id="@+id/btn_me"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_left_right"
+                            android:layout_marginRight="@dimen/margin_left_right"
+                            android:padding="@dimen/global_padding"
                             android:layout_alignParentLeft="true"
                             android:background="#FFFFFF"
                             android:gravity="left|center"
-                            android:padding="5dp"
-                            android:text="Mechanical Engineering"
-                            android:textColor="@color/text_color_primary"
+                            android:text="ME"
+                            android:textColor="@color/colorPrimary"
                             android:textSize="@dimen/head_text" />
 
                         <Button
@@ -332,7 +346,8 @@
                         android:paddingBottom="@dimen/padding_bottom"
                         android:paddingLeft="5dp"
                         android:text="@string/ug_me"
-                        android:textSize="@dimen/norml_text" />
+                        android:textSize="@dimen/norml_text"
+                        android:textColor="@color/text_color_secondary"/>
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
