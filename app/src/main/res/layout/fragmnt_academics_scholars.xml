@@ -33,7 +33,7 @@
                 android:gravity="left"
                 android:padding="@dimen/global_padding"
                 android:text="Introduction"
-                android:textColor="@color/text_color_primary"
+                android:textColor="@color/colorPrimary"
                 android:textSize="@dimen/head_text" />
 
             <TextView
@@ -80,7 +80,7 @@
                 android:gravity="left"
                 android:padding="5dp"
                 android:text="Eligibility"
-                android:textColor="@color/text_color_primary"
+                android:textColor="@color/colorPrimary"
                 android:textSize="@dimen/head_text" />
 
             <TextView
@@ -127,7 +127,7 @@
                 android:gravity="left"
                 android:padding="5dp"
                 android:text="Nature of Work"
-                android:textColor="@color/text_color_primary"
+                android:textColor="@color/colorPrimary"
                 android:textSize="@dimen/head_text" />
 
             <TextView
@@ -175,7 +175,7 @@
                 android:padding="5dp"
                 android:paddingTop="@dimen/padding_top"
                 android:text="Opportunities for Higher Studies"
-                android:textColor="@color/text_color_primary"
+                android:textColor="@color/colorPrimary"
                 android:textSize="@dimen/head_text" />
 
             <TextView
@@ -223,7 +223,7 @@
                 android:padding="5dp"
                 android:paddingTop="@dimen/padding_top"
                 android:text="Scholarship"
-                android:textColor="@color/text_color_primary"
+                android:textColor="@color/colorPrimary"
                 android:textSize="@dimen/head_text" />
 
             <TextView
@@ -272,7 +272,7 @@
                 android:paddingTop="@dimen/padding_top"
                 android:padding="5dp"
                 android:text="How to Apply"
-                android:textColor="@color/text_color_primary"
+                android:textColor="@color/colorPrimary"
                 android:textSize="@dimen/head_text" />
 
             <TextView

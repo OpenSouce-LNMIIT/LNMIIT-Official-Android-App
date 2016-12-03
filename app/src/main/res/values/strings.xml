@@ -565,29 +565,32 @@ We understand that adjusting to a new environment away from home will take some 
         <item>+917073102810</item>
     </string-array>
 
-     <string name="intro_ug">The primary objectives of establishing the LNM INSTITUTE OF INFORMATION TECHNOLOGY JAIPUR
+     <string name="intro_ug"> The primary objectives of establishing the LNM INSTITUTE OF INFORMATION TECHNOLOGY JAIPUR
         (LNM IIT Jaipur) are:-\n
-•To create a platform, comparable to the best in the world,\n
-•To become an effective catalyst for technological and societal development of the country,\n
-•To provide the highest level of education in information technology,\n
-•To produce competent, creative and imaginative engineers, in areas related to information technology,\n
-•To promote the spirit of free and objective enquiry.\n
+         <ul>
+            <li>To create a platform, comparable to the best in the world\n</li>
+            <li>To become an effective catalyst for technological and societal development of the country\n</li>
+            <li>To provide the highest level of education in information technology\n</li>
+            <li>To produce competent, creative and imaginative engineers, in areas related to information technology\n</li>
+            <li>To promote the spirit of free and objective enquiry\n</li>
+         </ul>
+         <br></br>
 
 The Institute is currently running the following Four Year B.Tech Programmes:-</string>
 
-    <string name="ug_cse">"The CSE discipline is supported by a team of faculty members having excellent research credentials as well as extensive industry experience. The lab facilities include Programming Lab, Digital Communication Lab, DBMS Lab, and Computer Networks Lab.The branch focusses on emerging trends like Software Engineering, Distributed and Cloud Computing, Data Mining, Data Warehousing and Multi-core Architecture."</string>
+    <string name="ug_cse"> The CSE discipline is supported by a team of faculty members having excellent research credentials as well as extensive industry experience. The lab facilities include Programming Lab, Digital Communication Lab, DBMS Lab, and Computer Networks Lab.The branch focusses on emerging trends like Software Engineering, Distributed and Cloud Computing, Data Mining, Data Warehousing and Multi-core Architecture."</string>
 
-    <string name="ug_ece">The ECE team is a fine blend of renowned as well as young and dynamic faculty members,having education and experience from renowned institutions in India and abroad. Advanced courses and electives in later years enable students to specialise in communications, signal processing, robotics, VLSI, embedded systems, and other streams. The ECE department also offers specialized M.Tech. and Dual Degree programs inCommunication Systems, Microelectronics, Microwave engineering and VLSI.</string>
+    <string name="ug_ece"> The ECE team is a fine blend of renowned as well as young and dynamic faculty members,having education and experience from renowned institutions in India and abroad. Advanced courses and electives in later years enable students to specialise in communications, signal processing, robotics, VLSI, embedded systems, and other streams. The ECE department also offers specialized M.Tech. and Dual Degree programs inCommunication Systems, Microelectronics, Microwave engineering and VLSI.</string>
 
-    <string name="ug_cce">The discipline is ably supported by an excellent team of faculty members, many of them having extensive industry-based experience in the fusion of software and hardware technologies. The CCE lab facilities include the Electronics Lab, Analog Communication Lab, Programming Lab, Digital Communication Lab, DBMS Lab, and Computer Networks Lab, ECAD Lab, and Microwave and Optical Communication Lab.</string>
+    <string name="ug_cce"> The discipline is ably supported by an excellent team of faculty members, many of them having extensive industry-based experience in the fusion of software and hardware technologies. The CCE lab facilities include the Electronics Lab, Analog Communication Lab, Programming Lab, Digital Communication Lab, DBMS Lab, and Computer Networks Lab, ECAD Lab, and Microwave and Optical Communication Lab.</string>
 
-    <string name="ug_mme">The MME discipline is supported by a team of faculty members having excellent research
+    <string name="ug_mme"> The MME discipline is supported by a team of faculty members having excellent research
         credentials as well as extensive industry experience.The branch helps students to deal with the real life
         challenges in the field of Mechanical and Mechatronics industries and equip them with the fundamental concepts
         and techniques of mechatronics applications, relevant to emerging technological advancements.It also focusses
         on Computer Aided Manufacturing, Design Engineering, Automation, Robotics.</string>
 
-    <string name="intro_pg">The goals of the postgraduate programs at the LNM Institute of Information Technology (LNMIIT)
+    <string name="intro_pg"> The goals of the postgraduate programs at the LNM Institute of Information Technology (LNMIIT)
         Jaipur are: The development of scientific and engineering manpower of the highest quality, to cater to the needs of
         industry, R &amp; D organizations and educational institutions, a broad grasp of the fundamental principles of the
         sciences and scientific methods, a deep understanding of the area of specialization, an innovative ability to solve
@@ -595,15 +598,20 @@ The Institute is currently running the following Four Year B.Tech Programmes:-</
         should have a capacity for free and objective inquiry, courage and integrity, awareness and sensitivity to the needs
         and aspirations of society. </string>
 
-    <string name="mtech">•M. Tech Program students, irrespective of their discipline, must do a minimum of 28 credits through course work and a minimum of 36 credits through research (thesis) work.\n
-•M. S. (by Research) Program students, irrespective of their discipline, must do a minimum of 16 credits through course work and a minimum of 48 credits through research (thesis) work.
-        </string>
+    <string name="mtech">
+        <ul>
+        <li>M. Tech Program students, irrespective of their discipline, must do a minimum of 28 credits through course work and a minimum of 36 credits through research (thesis) work.\n</li>
+        <li> M. S. (by Research) Program students, irrespective of their discipline, must do a minimum of 16 credits through course work and a minimum of 48 credits through research (thesis) work. </li>
+        </ul>
+    </string>
 
     <string name="abt_phd">
-•With M. Tech degree, irrespective of their discipline, must do a minimum of 16 credits through course work and a minimum of 64 credits through research (thesis) work.\n
-•With Msc, MA and M Phil degree, irrespective of their discipline, must do a minimum of 24 credits through course work and a minimum of 64 credits through research (thesis) work.\n
-•With B. Tech degree, irrespective of their discipline, must do a minimum of 32 credits through course work and a minimum of 64 credits through research (thesis) work.
-        </string>
+        <ul>
+<li>With M. Tech degree, irrespective of their discipline, must do a minimum of 16 credits through course work and a minimum of 64 credits through research (thesis) work.\n</li>
+<li>With Msc, MA and M Phil degree, irrespective of their discipline, must do a minimum of 24 credits through course work and a minimum of 64 credits through research (thesis) work.\n</li>
+<li>With B.Tech degree, irrespective of their discipline, must do a minimum of 32 credits through course work and a minimum of 64 credits through research (thesis) work.</li>
+        </ul>
+    </string>
 
     <string name="ug_me">The MME discipline is supported by a team of faculty members having excellent research
         credentials as well as extensive industry experience.The branch helps students to deal with the real life
@@ -619,9 +627,13 @@ The Institute is currently running the following Four Year B.Tech Programmes:-</
         You participate in academic activities, alongside the faculty, and prepare yourself for a career upgrade through
         additional qualification.</string>
 
-    <string name="eligibility">•B. Tech. in Electronics, Communication, Computers or equivalent.\n
-•M. Tech in Electronics, Communication, Computers or equivalent.\n
-•M. Sc. Physics with Applied Electronics.</string>
+    <string name="eligibility">
+        <ul>
+            <li>B.Tech. in Electronics, Communication, Computers or equivalent.\n</li>
+            <li>M. Tech in Electronics, Communication, Computers or equivalent.\n</li>
+            <li>M. Sc. Physics with Applied Electronics.</li>
+        </ul>
+    </string>
 
     <string name="scholarshp">The Scholars will be provided an honorarium of Rs. 13,000 -18,000 per month. (Typically,
         hostel accommodation is provided to bachelors.) The revision of the LNM Scholar honorarium is under active
@@ -635,6 +647,44 @@ The Institute is currently running the following Four Year B.Tech Programmes:-</
     <string name="abt_contact">The convener of UG admissions,\nThe LNM Institute of Information Technology,\nRupa ki Nangal, Post-Sumel, Via-Jamdoli \nJaipur-302031, (Rajasthan) INDIA.\nConvener of PG Admissions: +91-141-268-9011 / 12 / 13</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mtechfields">
+        <ul>
+        <li>Computer Science and Engineering\n</li>
+        <li>Computer Science and Engineering with specialization in Software Engineering\n</li>
+        <li>Computer Science and Engineering with specialization in Data Analytics\n</li>
+        <li>Electronics and Communication Engineering\n</li>
+        <li>Electronics and Communication Engineering with Specialization in Mobile Communication</li>
+        </ul>
+    </string>
+    <string name="msfields">
+        <ul>
+        <li>Computer Science and Engineering\n</li>
+        <li>Electronic and Communication Engineering\n</li>
+        <li>Communication and Computer Engineering</li>
+        </ul>
+    </string>
+    <string name="phdFields">
+        <ul>
+        <li>Computer Science and Engineering\n</li>
+        <li>Electronics and Communications Engineering\n</li>
+        <li>Physics\n</li>
+        <li>Mathematics\n</li>
+        <li>Humanities and Social Sciences</li>
+        </ul>
+    </string>
+    <string name="programs">
+        <ul>
+            <li>Computer Science and Engineering\n</li>
+            <li>Electronics and Communication Engineering\n</li>
+            <li>Communication and Computer Engineering\n</li>
+            <li>Engineering Physics\n</li>
+            <li>Mathematics and Information Technology\n</li>
+            <li>Mechatronics Engineering</li>
+        </ul>
+    </string>
+    <string  name="eligibilty">
+        Students who will fullfill the college criteria of JEE-Prelims and JEE-Advance exams are eligible for the admission.
+    </string>
     <string-array name="admin_name">
         <item>Prof. S.S. Gokhale</item>
         <item>Col. Mohanjeet Singh Pathania</item>
@@ -668,7 +718,6 @@ The Institute is currently running the following Four Year B.Tech Programmes:-</
         <item>Mr. Nahar Singh</item>
         <item>Smt. Pushpa Devi</item>
         <item>Bus Information(Main Gate)</item>
-        <item>Central Library</item>
         <item>Administration Office</item>
     </string-array>
     <string-array name="emergency_phone">
@@ -676,7 +725,6 @@ The Institute is currently running the following Four Year B.Tech Programmes:-</
         <item>9461692225</item>
         <item>8764038742</item>
         <item>01415191757</item>
-        <item></item>
         <item>01415189211</item>
     </string-array>
 </resources>

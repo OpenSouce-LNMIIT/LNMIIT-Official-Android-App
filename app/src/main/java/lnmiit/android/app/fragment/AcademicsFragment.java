@@ -37,9 +37,10 @@ public class AcademicsFragment extends Fragment {
         viewPager = (ViewPager) x.findViewById(R.id.viewPager);
         tabLayout = ((MainActivity)getActivity()).getTabLayout();
         tabLayout.removeAllTabs();
+        tabLayout.setTabMode(TabLayout.MODE_SCROLLABLE);
         StudentAdapter studentadapter = new StudentAdapter(getChildFragmentManager());
-        studentadapter.addFragment(new AcademicsUG(),"UG");
-        studentadapter.addFragment(new AcademicsPG(),"PG");
+        studentadapter.addFragment(new AcademicsUG(),"Undergraduate");
+        studentadapter.addFragment(new AcademicsPG(),"Postgraduate");
         studentadapter.addFragment(new AcademicsLnmScholars(),"LNM Scholars");
         viewPager.setAdapter(studentadapter);
         tabLayout.setupWithViewPager(viewPager);

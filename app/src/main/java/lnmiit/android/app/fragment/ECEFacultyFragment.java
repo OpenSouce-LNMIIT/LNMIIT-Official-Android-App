@@ -65,7 +65,6 @@ public class ECEFacultyFragment extends Fragment {
      * details in an arraylist
      */
     private void loadFacultyDetails() {
-        FacultyDetails a = null;
         for (int i = 0; i < imageUrl.length; i++) {
             facultyList.add(new FacultyDetails(faculty_name[i], faculty_designation[i], imageUrl[i], faculty_email[i], faculty_phone[i]));
         }

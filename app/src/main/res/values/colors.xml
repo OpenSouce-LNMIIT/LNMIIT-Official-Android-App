@@ -7,7 +7,7 @@
     <color name="tab_indicator">#6D4C41</color>
 
     <color name="text_color_primary">#3a3f40</color>
-    <color name="text_color_secondary">#8c9096</color>
+    <color name="text_color_secondary">#3a3f40</color>
     <color name="divider_white">#8c9096</color>
     <color name="main_backgrnd">#ECF1F4</color>
 </resources>
