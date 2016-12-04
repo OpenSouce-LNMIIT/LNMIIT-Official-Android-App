@@ -450,11 +450,11 @@ joyeeta.singha@lnmiit.ac.in
     The foundation has helped build a new hospital in Kutch (Gujrat) after the devastating earthquake. It has also contributed large amount to the drought relief fund of the Chief Minister of Rajasthan. A big grant has been given by the Foundation for rehabilitation of people in the tsunami affected areas of south India. The Foundation is envisaging several other projects, which will not only continue to help the poor but also enable them to earn their livelihood so that they can improve the quality of their lives and live with dignity.
      </item>
     </string-array>
-<string-array name="vision_array_header">
-    <item>Vision</item>
-    <item>Mission</item>
-    <item>Objectives</item>
-</string-array>
+    <string-array name="vision_array_header">
+        <item>Vision</item>
+        <item>Mission</item>
+        <item>Objectives</item>
+    </string-array>
     <string-array name="vision_array_message">
         <item>
         To establish world class platform for creation of knowledge through quality research and its dissemination through technologically enabled teaching - learning pedagogy in the field of science, technology, engineering, arts and management. To become a catalyst in the societal and national development, by ensuring continuous interaction with industry and other academic and research institutions in India and abroad.
@@ -485,9 +485,9 @@ Welcome to LNMIIT Campus for the academic session 2016 - 17. Past couple of year
 We understand that adjusting to a new environment away from home will take some time. But soon these days will pass and you would be comfortable in this new home away from home. There are avenues available to you for your creative expression and talent which you would come to know in due course of time. Apart from academics all these are essential for your overall personality development. Wishing you fruitful and productive stay at LNMIIT.
         </item>
     </string-array>
-<string-array name="director_header">
-    <item>Directors Message</item>
-</string-array>
+    <string-array name="director_header">
+        <item>Directors Message</item>
+    </string-array>
     <string-array name="council">
         <item>Technical</item>
         <item>Cultural</item>
@@ -644,7 +644,7 @@ The Institute is currently running the following Four Year B.Tech Programmes:-</
         or an M.Sc. degree may do M. S. (by Research) and MTech and those with an M.Tech. degree may work for Ph.D. while
         working as LNM Scholar.\</string>
 
-    <string name="abt_contact">The convener of UG admissions,\nThe LNM Institute of Information Technology,\nRupa ki Nangal, Post-Sumel, Via-Jamdoli \nJaipur-302031, (Rajasthan) INDIA.\nConvener of PG Admissions: +91-141-268-9011 / 12 / 13</string>
+    <string name="abt_contact">The convener of UG admissions,\nThe LNM Institute of Information Technology,\nRupa ki Nangal, Post-Sumel, Via-Jamdoli \nJaipur-302031, (Rajasthan) INDIA.\nConvener of PG Admissions:91-141-268-9011 / 12 / 13</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="mtechfields">
@@ -682,7 +682,7 @@ The Institute is currently running the following Four Year B.Tech Programmes:-</
             <li>Mechatronics Engineering</li>
         </ul>
     </string>
-    <string  name="eligibilty">
+    <string name="eligibilty">
         Students who will fullfill the college criteria of JEE-Prelims and JEE-Advance exams are eligible for the admission.
     </string>
     <string-array name="admin_name">
@@ -726,5 +726,50 @@ The Institute is currently running the following Four Year B.Tech Programmes:-</
         <item>8764038742</item>
         <item>01415191757</item>
         <item>01415189211</item>
+    </string-array>
+
+    <string-array name="cont_url">
+        <item> </item>
+        <item>http://bit.ly/2g2Cgfa</item>
+        <item>http://bit.ly/2fqpOSQ</item>
+        <item>http://bit.ly/2eZjYas </item>
+        <item>http://bit.ly/2fiKFtO </item>
+    </string-array>
+
+    <string-array name="cont_title">
+
+        <item>Training &amp; Placement Officer</item>
+        <item>Faculty Advisor</item>
+        <item>Faculty Advisor</item>
+        <item>Student Co-ordinator</item>
+        <item>Student Co-ordinator</item>
+
+    </string-array>
+
+    <string-array name="cont_name">
+
+        <item>MR. MANUJ SHARMA</item>
+        <item>DR. PREETY SINGH</item>
+        <item>MR. SANDEEP SAINI</item>
+        <item>TUSHAR AGARWAL</item>
+        <item>SAURABH KAYAL</item>
+    </string-array>
+
+    <string-array name="cont_email">
+        <item>top@lnmiit.ac.in</item>
+        <item>prtysingh@gmail.com</item>
+        <item>sandeep.saini@lnmiit.ac.in</item>
+        <item>Tusharlnmiit94@gmail.com</item>
+        <item>saurabhkayal007@gmail.com</item>
+
+    </string-array>
+
+    <string-array name="cont_number">
+        <item>+918696792550</item>
+        <item>+919828364396</item>
+        <item>+919983180460</item>
+        <item>+919414061624</item>
+        <item>+919024699141</item>
+        <item>+919680613840</item>
     </string-array>
 </resources>

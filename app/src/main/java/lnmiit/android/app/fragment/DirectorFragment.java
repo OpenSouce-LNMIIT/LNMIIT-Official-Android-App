@@ -50,7 +50,7 @@ public class DirectorFragment extends Fragment {
         catch (Exception e) {
             e.printStackTrace();
         }
-
+        list = new ArrayList<>();
         adapter = new StudentCouncilFestAdapter(getActivity().getApplicationContext(),list);
         layoutManager= new LinearLayoutManager(getContext(),LinearLayoutManager.VERTICAL,false);
         recyclerView.setLayoutManager(layoutManager);

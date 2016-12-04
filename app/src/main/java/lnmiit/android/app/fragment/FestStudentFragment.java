@@ -31,6 +31,8 @@ public class FestStudentFragment extends Fragment {
         fest = getResources().getStringArray(R.array.fest_name);
         festDes = getResources().getStringArray(R.array.fest_des);
         recycler = (RecyclerView) view.findViewById(R.id.recycle_fest);
+
+        list = new ArrayList<>();
         adapter = new StudentCouncilFestAdapter(getActivity().getApplicationContext(),list);
         linearLayoutManager = new LinearLayoutManager(getContext(),LinearLayoutManager.VERTICAL,false);
         recycler.setLayoutManager(linearLayoutManager);
