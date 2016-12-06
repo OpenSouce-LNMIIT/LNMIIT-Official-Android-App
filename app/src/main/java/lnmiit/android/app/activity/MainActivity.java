@@ -38,12 +38,12 @@ import lnmiit.android.app.fragment.StudentFragment;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+
     private Toolbar toolbar;
     private TabLayout tabLayout;
-    private ImageView imageView;
+    private ImageView imageView ;
     private CollapsingToolbarLayout collapsingToolbar;
     private RelativeLayout view;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,15 +51,14 @@ public class MainActivity extends AppCompatActivity
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        view = (RelativeLayout) findViewById(R.id.view);
-        collapsingToolbar = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
-        imageView = (ImageView) findViewById(R.id.backdrop);
+        view = (RelativeLayout)findViewById(R.id.view);
+        collapsingToolbar = (CollapsingToolbarLayout)findViewById(R.id.collapsing_toolbar);
+        imageView = (ImageView)findViewById(R.id.backdrop);
         tabLayout = (TabLayout) findViewById(R.id.tabs);
-        tabLayout.setTabMode(TabLayout.MODE_SCROLLABLE);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+                this, drawer, toolbar, R.string.navigation_drawer_open,R.string.navigation_drawer_close);
         toggle.syncState();
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
@@ -73,10 +72,9 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
-    public TabLayout getTabLayout() {
-        return tabLayout;
+    public  TabLayout getTabLayout(){
+        return  tabLayout;
     }
-
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -87,79 +85,66 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
-
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
 
         Fragment fragment = null;
 
         int id = item.getItemId();
-        if (id == R.id.home) {
-            collapsingToolbar.setVisibility(View.VISIBLE);
+        if(id == R.id.home){
             view.setVisibility(View.VISIBLE);
             fragment = new HomeFragment();
             getSupportActionBar().setTitle("LNMIIT");
-            Glide.with(this).load(R.drawable.pic).into(imageView);
             tabLayout.setVisibility(View.VISIBLE);
-            view.setBackgroundResource(R.drawable.lnmiit_main);
-            // Glide.with(this).load(R.drawable.lnmiit_main).into(imageView);
+            Glide.with(this).load(R.drawable.lnmiit_main).into(imageView);
         } else if (id == R.id.academics) {
-            collapsingToolbar.setVisibility(View.VISIBLE);
             view.setVisibility(View.VISIBLE);
             fragment = new AcademicsFragment();
             tabLayout.setVisibility(View.VISIBLE);
             getSupportActionBar().setTitle("Academics");
-            view.setBackgroundResource(R.drawable.academics);
-            //Glide.with(this).load(R.drawable.academics).into(imageView);
+            Glide.with(this).load(R.drawable.academics).into(imageView);
         } else if (id == R.id.admission) {
-            collapsingToolbar.setVisibility(View.VISIBLE);
             view.setVisibility(View.VISIBLE);
             tabLayout.setVisibility(View.VISIBLE);
             fragment = new AdmissionsFragment();
             getSupportActionBar().setTitle("Admissions");
-            view.setBackgroundResource(R.drawable.admission);
-            //Glide.with(this).load(R.drawable.admission).into(imageView);
+            Glide.with(this).load(R.drawable.admission).into(imageView);
         } else if (id == R.id.placement) {
             view.setVisibility(View.VISIBLE);
             tabLayout.setVisibility(View.VISIBLE);
             fragment = new PlacementFragment();
             getSupportActionBar().setTitle("Placement");
-            view.setBackgroundResource(R.drawable.placement1);
-            //Glide.with(this).load(R.drawable.placement1).into(imageView);
+            Glide.with(this).load(R.drawable.placement1).into(imageView);
 
         } else if (id == R.id.administration) {
-            collapsingToolbar.setVisibility(View.VISIBLE);
             view.setVisibility(View.VISIBLE);
             tabLayout.setVisibility(View.VISIBLE);
             fragment = new AdministrationFragment();
             getSupportActionBar().setTitle("Administration");
             Glide.with(this).load(R.drawable.admin).into(imageView);
         } else if (id == R.id.faculty) {
-            collapsingToolbar.setVisibility(View.VISIBLE);
             view.setVisibility(View.VISIBLE);
             tabLayout.setVisibility(View.VISIBLE);
             fragment = new FacultyFragment();
             getSupportActionBar().setTitle("Faculty");
             Glide.with(this).load(R.drawable.faculty).into(imageView);
         } else if (id == R.id.student) {
-            collapsingToolbar.setVisibility(View.VISIBLE);
             view.setVisibility(View.VISIBLE);
             tabLayout.setVisibility(View.VISIBLE);
             fragment = new StudentFragment();
             Glide.with(this).load(R.drawable.student).into(imageView);
             getSupportActionBar().setTitle("Student");
         } else if (id == R.id.emergency) {
-            collapsingToolbar.setVisibility(View.VISIBLE);
             view.setVisibility(View.VISIBLE);
             tabLayout.setVisibility(View.VISIBLE);
             fragment = new EmergencyFragment();
             getSupportActionBar().setTitle("Emergency");
+            Glide.with(this).load(R.drawable.a14).into(imageView);
         } else if (id == R.id.map) {
-            toolbar.setCollapsible(false);
             view.setVisibility(View.GONE);
             tabLayout.setVisibility(View.GONE);
             getSupportActionBar().setTitle("Map");
-            fragment = new MapFragment();
+            fragment= new MapFragment();
         } else if (id == R.id.gallery) {
             view.setVisibility(View.GONE);
             tabLayout.setVisibility(View.GONE);
@@ -173,9 +158,6 @@ public class MainActivity extends AppCompatActivity
             Glide.with(this).load(R.drawable.aboutus).into(imageView);
         }
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
-
         if (fragment != null) {
             FragmentManager fragmentManager = getSupportFragmentManager();
             FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
@@ -183,23 +165,8 @@ public class MainActivity extends AppCompatActivity
             fragmentTransaction.commit();
         }
 
-
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
         return true;
-    }
-
-    private void setVisibleToolbar() {
-        toolbar.setCollapsible(true);
-        imageView.setVisibility(View.VISIBLE);
-        tabLayout.setVisibility(View.VISIBLE);
-    }
-
-    private void setInvisibleToolbar() {
-
-        imageView.setVisibility(View.GONE);
-        tabLayout.setVisibility(View.GONE);
-    }
-
-    private void setTitleToolbar(String title) {
-        getSupportActionBar().setTitle(title);
     }
 }
