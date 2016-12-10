@@ -16,8 +16,10 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import lnmiit.android.app.R;
+import lnmiit.android.app.utilities.DatabaseHandler;
 import lnmiit.android.app.utilities.RecyclerTouchListener;
 import lnmiit.android.app.activity.WebActivity;
 import lnmiit.android.app.adapter.UpdateAdapter;
@@ -30,10 +32,11 @@ import lnmiit.android.app.service.CrawDataService;
 public class UpdateFragment extends Fragment {
 
     private RecyclerView recyclerView;
-    protected ArrayList<UpdateDetail> updateList;
+    protected List<UpdateDetail> updateList;
     private UpdateAdapter updateAdapter;
     private UpdateReceiver updateReceiver;
     private TextView emptyText ;
+    private DatabaseHandler db ;
 
     public UpdateFragment(){
     }
@@ -65,6 +68,8 @@ public class UpdateFragment extends Fragment {
             recyclerView.setVisibility(View.VISIBLE);
             emptyText.setVisibility(View.GONE);
         }
+
+        db  = new DatabaseHandler(getContext());
 
         recyclerView.addOnItemTouchListener(new RecyclerTouchListener(getActivity(), recyclerView, new RecyclerTouchListener.ClickListener() {
             @Override
@@ -99,6 +104,22 @@ public class UpdateFragment extends Fragment {
         Intent intent = new Intent(getContext(),CrawDataService.class);
         intent.setAction(UpdateReceiver.INTENT_ACTION);
         getContext().startService(intent);
+
+        updateList.clear();
+        List<UpdateDetail> h = db.getAllUpdates();
+        for(int i = 0 ; i < h.size() ; i++){
+            updateList.add(h.get(i));
+        }
+
+        updateAdapter.notifyDataSetChanged();
+
+        if(updateList.isEmpty()){
+            recyclerView.setVisibility(View.GONE);
+            emptyText.setVisibility(View.VISIBLE);
+        }else{
+            recyclerView.setVisibility(View.VISIBLE);
+            emptyText.setVisibility(View.GONE);
+        }
     }
 
     @Override
@@ -117,9 +138,11 @@ public class UpdateFragment extends Fragment {
 
 
             ArrayList<? extends Parcelable> list =  intent.getParcelableArrayListExtra(CrawDataService.DATA_UPDATE);
-            updateList.clear();
             for(int i = 0 ; i < list.size() ; i++){
-                updateList.add((UpdateDetail) list.get(i));
+                if(!db.hasObjectInUpdate(((UpdateDetail) list.get(i)).getTitle())) {
+                    updateList.add((UpdateDetail) list.get(i));
+                    db.addItemtoUpdate((UpdateDetail) list.get(i));
+                }
             }
 
             updateAdapter.notifyDataSetChanged();

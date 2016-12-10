@@ -16,8 +16,10 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import lnmiit.android.app.R;
+import lnmiit.android.app.utilities.DatabaseHandler;
 import lnmiit.android.app.utilities.RecyclerTouchListener;
 import lnmiit.android.app.activity.WebActivity;
 import lnmiit.android.app.adapter.UpdateAdapter;
@@ -34,6 +36,8 @@ public class NewsFragment extends Fragment {
     private UpdateAdapter updateAdapter;
     private NewsReceiver newsReceiver ;
     private TextView emptyText ;
+    private DatabaseHandler db ;
+
 
     public NewsFragment(){
 
@@ -58,6 +62,8 @@ public class NewsFragment extends Fragment {
         RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getActivity());
         recyclerView.setLayoutManager(mLayoutManager);
         recyclerView.setAdapter(updateAdapter);
+
+        db  = new DatabaseHandler(getContext());
 
         if(updateList.isEmpty()){
             recyclerView.setVisibility(View.GONE);
@@ -99,6 +105,22 @@ public class NewsFragment extends Fragment {
         Intent intent = new Intent(getContext(),CrawDataService.class);
         intent.setAction(NewsReceiver.INTENT_ACTION);
         getContext().startService(intent);
+
+        updateList.clear();
+        List<UpdateDetail> h = db.getAllNews();
+        for(int i = 0 ; i < h.size() ; i++){
+            updateList.add(h.get(i));
+        }
+
+        updateAdapter.notifyDataSetChanged();
+
+        if(updateList.isEmpty()){
+            recyclerView.setVisibility(View.GONE);
+            emptyText.setVisibility(View.VISIBLE);
+        }else{
+            recyclerView.setVisibility(View.VISIBLE);
+            emptyText.setVisibility(View.GONE);
+        }
     }
 
     @Override
@@ -119,7 +141,10 @@ public class NewsFragment extends Fragment {
             ArrayList<? extends Parcelable> list =  intent.getParcelableArrayListExtra(CrawDataService.DATA_NEWS);
             updateList.clear();
             for(int i = 0 ; i < list.size() ; i++){
-                updateList.add((UpdateDetail) list.get(i));
+                if(!db.hasObjectInNews(((UpdateDetail) list.get(i)).getTitle())) {
+                    updateList.add((UpdateDetail) list.get(i));
+                    db.addItemtoNews((UpdateDetail) list.get(i));
+                }
             }
 
             updateAdapter.notifyDataSetChanged();
