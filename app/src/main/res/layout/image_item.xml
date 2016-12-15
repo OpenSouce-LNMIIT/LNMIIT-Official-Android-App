@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lnmiit.android.app.utilities.SquareLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hello"
+        android:background="@color/galleryImage"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:gravity="center_horizontal|center_vertical"
+        android:id="@+id/titleImage" />
+</lnmiit.android.app.utilities.SquareLayout>

@@ -46,4 +46,6 @@
        <dimen name="photo_size">120dp</dimen>
         <dimen name="photo_spacing">4dp</dimen>
         <dimen name="text">20sp</dimen>
+    <dimen name="app_bar_height">240dp</dimen>
+    <dimen name="app_bar">320dp</dimen>
 </resources>

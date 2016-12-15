@@ -36,4 +36,5 @@
     <color name="black">#000</color>
     <color name="grid_state_pressed">#BB561e14</color>
     <color name="grid_state_focused">#77561e14</color>
+    <color name="galleryImage">#82000000</color>
 </resources>
