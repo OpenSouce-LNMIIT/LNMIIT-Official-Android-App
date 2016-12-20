@@ -126,6 +126,7 @@ public class MainActivity extends AppCompatActivity
             fragment = new StudentFragment();
             lockAppBar(false,"Student");
             getSupportActionBar().setTitle("Student");
+            Glide.with(this).load(R.drawable.student).into(imageView);
         } else if (id == R.id.emergency) {
             fragment = new EmergencyFragment();
             lockAppBar(false,"Emergency");

@@ -32,25 +32,17 @@ public class PlacementFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_faculty, container, false);
         viewPager = (ViewPager) view.findViewById(R.id.viewpager1);
-        setupViewPager(viewPager);
 
         tabLayout = ((MainActivity) getActivity()).getTabLayout();
         tabLayout.removeAllTabs();
+        ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(getChildFragmentManager());
+        viewPagerAdapter.addFrag(new StatisticsFragment(),"Statistics");
+        viewPagerAdapter.addFrag(new RecruitersFragment(),"Recruiters");
+        viewPagerAdapter.addFrag(new ContactFragment(),"Contacts");
+
+        viewPager.setAdapter(viewPagerAdapter);
         tabLayout.setupWithViewPager(viewPager);
         return view;
-    }
-
-    private void setupViewPager(ViewPager viewPager) {
-        ViewPagerAdapter adapter = new ViewPagerAdapter(getActivity().getSupportFragmentManager());
-        adapter.addFrag(new RecruitersFragment(), "Recruiters");
-        adapter.addFrag(new StatisticsFragment(), "Statistics");
-        adapter.addFrag(new ContactFragment(), "Contacts");
-        viewPager.setAdapter(adapter);
-    }
-
-    @Override
-    public void onDetach() {
-        super.onDetach();
     }
 
     class ViewPagerAdapter extends FragmentPagerAdapter {
