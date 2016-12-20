@@ -3,7 +3,7 @@
 
     <item
         android:id="@+id/home"
-        android:title="LNMIIT"
+        android:title="Home"
         android:icon="@drawable/ic_home"
         android:checked="true"
         android:checkable="true"/>
@@ -43,10 +43,6 @@
             android:id="@+id/emergency"
             android:title="@string/emergency"
             android:icon="@drawable/ic_healing_black_24px"/>
-        <item
-            android:id="@+id/bus"
-            android:title="@string/bus"
-            android:icon="@drawable/ic_directions_bus_black_24px"/>
         <item
             android:id="@+id/map"
             android:title="@string/map"

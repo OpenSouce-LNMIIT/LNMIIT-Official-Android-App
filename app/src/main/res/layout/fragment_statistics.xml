@@ -1,0 +1,1973 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/layout_bg"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/global_margin"
+            android:padding="@dimen/global_padding">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/cardplus"
+                android:layout_marginBottom="@dimen/global_margin"
+                >
+
+                <TextView
+                    android:id="@+id/program"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="On Campus Placements"
+                    android:textSize="@dimen/text"
+                    android:textColor="@color/red"
+                    android:padding="@dimen/global_padding"
+                    android:layout_marginLeft="@dimen/margin_left_right"
+                    android:layout_marginRight="@dimen/margin_left_right"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/cardplus"
+                android:layout_marginBottom="@dimen/global_margin"
+                >
+                <TextView
+                    android:id="@+id/mtech"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/picassoblue"
+                    android:layout_marginLeft="@dimen/margin_left_right"
+                    android:layout_marginRight="@dimen/margin_left_right"
+                    android:paddingTop="@dimen/padding_top"
+                    android:textSize="@dimen/text"
+                    android:text="Batch 2016" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/margin_left_right"
+                    android:layout_marginRight="@dimen/margin_left_right"
+                    android:layout_marginBottom="@dimen/margin_bottom"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:paddingBottom="@dimen/padding_bottom"
+                    android:id="@+id/stats_linear1" >
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        >
+
+                        <TableRow
+                            android:id="@+id/tableRow1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginRight="1dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Company Name"
+                                android:textColor="#000000"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Offers"
+                                android:textColor="#000000"
+                                android:textSize="15dp"/>
+
+
+                            <TextView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Package "
+                                android:textColor="#000000"
+                                android:textSize="15dp"/>
+
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tableRow2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B">
+
+                            <TextView
+                                android:layout_width="145dp"
+                                android:layout_height="wrap_content"
+                                android:text="Amazon"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B"/>
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:text="3"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="27"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B"/>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tableRow3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B">
+
+                            <TextView
+                                android:layout_width="145dp"
+                                android:layout_height="wrap_content"
+                                android:text="IBM "
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B"/>
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:text="42"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3.2"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B"/>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tableRow4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B">
+
+                            <TextView
+                                android:layout_width="145dp"
+                                android:layout_height="wrap_content"
+                                android:text="Incture Technologies"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B"/>
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:text="3"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="4.2"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+
+                            <TextView
+                                android:layout_width="145dp"
+                                android:layout_height="wrap_content"
+                                android:text="Innoplexus"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B"/>
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:text="4"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="4.5"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B"/>
+
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B">
+
+                            <TextView
+                                android:layout_width="145dp"
+                                android:layout_height="wrap_content"
+                                android:text="Tek Systems"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B"/>
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:text="5"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="6"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B"/>
+
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B">
+
+                            <TextView
+                                android:layout_width="145dp"
+                                android:layout_height="wrap_content"
+                                android:text="Grofers "
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B"/>
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:text="9"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3.75-9 "
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B"/>
+
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B">
+
+                            <TextView
+                                android:layout_width="145dp"
+                                android:layout_height="wrap_content"
+                                android:text="Evive Health"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="4"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B"/>
+
+                            <TextView
+                                android:text="5.1-8.01"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B"/>
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="Mindtree "
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="18"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="3.2"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="Sapient"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="32+28"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="5.5"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="Cardekho"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="8"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="4.1 "
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="Voylla"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="10"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="3.6-4.2"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="Samsung"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="8"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="8.22"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="AppPerfect"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="2"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="4.2-4.8"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="Nagarro"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="7"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="3.5"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="Pratham Software"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="8"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="4.5"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow17"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="Zomato"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="1"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="5.6"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow18"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="Persistent"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="2"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="3.58"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow19"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="ZS Associates"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="3"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="7.56"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="BuyHatke"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="1"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="10"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="BlackNGreen"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="2"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="5.6"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow22"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="Skilrock Technologies"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="5"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="3.6"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="InfoObjects"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="6"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="3.2-5"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="Global Logic"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="3"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="4.95"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow25"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="Sopra Steria"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="1"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="3.5"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow26"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="Meta Cube"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="3"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="4.5"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow27"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="Stellarix"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="6"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="3.6-4"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow28"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="Josh Technology"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="1"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="5.5"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow29"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="Appirio"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="2"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="4"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow30"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="Meditab"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="3"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="3.6"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tableRow31"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="Blue Box Media"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="1"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="4.2"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+
+                    </TableLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/cardplus"
+                android:layout_marginBottom="@dimen/global_margin"
+                >
+                <TextView
+                    android:id="@+id/mtech2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/picassoblue"
+                    android:layout_marginLeft="@dimen/margin_left_right"
+                    android:layout_marginRight="@dimen/margin_left_right"
+                    android:paddingTop="@dimen/padding_top"
+                    android:textSize="@dimen/text"
+                    android:text="Pre Placement Offer" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/margin_left_right"
+                    android:layout_marginRight="@dimen/margin_left_right"
+                    android:layout_marginBottom="@dimen/margin_bottom"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:paddingBottom="@dimen/padding_bottom"
+                    android:id="@+id/stats_linear2" >
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        >
+
+                        <TableRow
+                            android:id="@+id/tableRow32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginRight="1dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Company Name"
+                                android:textColor="#000000"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Offers"
+                                android:textColor="#000000"
+                                android:textSize="15dp"/>
+
+
+                            <TextView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Package "
+                                android:textColor="#000000"
+                                android:textSize="15dp"/>
+
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tableRow33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B">
+
+                            <TextView
+                                android:layout_width="145dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:text="Roadrunnr"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B"/>
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:text="1"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:text="24"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B"/>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tableRow34"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B">
+
+                            <TextView
+                                android:layout_width="145dp"
+                                android:layout_height="wrap_content"
+                                android:text="Kayako"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B"/>
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:text="1"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="18"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B"/>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tableRow35"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B">
+
+                            <TextView
+                                android:layout_width="145dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:text="Task Bob"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B"/>
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:text="1"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="10"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B" />
+
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow36"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+
+                            <TextView
+                                android:layout_width="145dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:text="1MG"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B"/>
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:text="1"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="10"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B"/>
+
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow37"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B">
+
+                            <TextView
+                                android:layout_width="145dp"
+                                android:layout_height="wrap_content"
+                                android:text="InterviewBit"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B"/>
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:text="1"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="10"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B"/>
+
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow38"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B">
+
+                            <TextView
+                                android:layout_width="145dp"
+                                android:layout_height="wrap_content"
+                                android:text="Indix"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B"/>
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:text="1"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="9.5"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B"/>
+
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow39"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B">
+
+                            <TextView
+                                android:layout_width="145dp"
+                                android:layout_height="wrap_content"
+                                android:text="Hacker Earth"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="1"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B"/>
+
+                            <TextView
+                                android:text="9.2"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B"/>
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow40"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="Zomato"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="1"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="8"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tableRow41"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="Formcept"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="2"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="7.5 and 5.5"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tableRow42"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="Ather Energy"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="1"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="5.5"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tableRow43"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="Overcart"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="1"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="5.5"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tableRow44"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="Nearbuy"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="1"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="5.5"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tableRow45"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="ConveGenius EduSolutions Pvt. Ltd"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="1"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="7.2"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tableRow46"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="Unacademy"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="1"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="5.8"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tableRow47"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="Rapid Biz Apps"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="1"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="6"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tableRow48"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="Prodintel"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="1"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="5.5"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tableRow49"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="ASK IT"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="1"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="4.5"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tableRow50"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="Urban Clap"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="1"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="4.5"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tableRow51"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="Drona Aviations"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="1"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="4.2"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tableRow52"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="Happy.in"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="1"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="4"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tableRow53"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="Qyiro labs"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="1"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="5.1"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow54"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="CriterionNetwork"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="1"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="4.5"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tableRow55"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B" >
+                            <TextView
+                                android:layout_width="145dp"
+                                android:text="Social cops"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:text="1"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+
+                            <TextView
+                                android:text="7"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B" />
+                        </TableRow>
+
+
+                    </TableLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/cardplus"
+                android:layout_marginBottom="@dimen/global_margin"
+                >
+                <TextView
+                    android:id="@+id/mtech3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/picassoblue"
+                    android:layout_marginLeft="@dimen/margin_left_right"
+                    android:layout_marginRight="@dimen/margin_left_right"
+                    android:paddingTop="@dimen/padding_top"
+                    android:textSize="@dimen/text"
+                    android:text="6-month Internship" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/margin_left_right"
+                    android:layout_marginRight="@dimen/margin_left_right"
+                    android:layout_marginBottom="@dimen/margin_bottom"
+                    android:layout_marginTop="@dimen/margin_top"
+                    android:paddingBottom="@dimen/padding_bottom"
+                    android:id="@+id/stats_linear3" >
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        >
+
+                        <TableRow
+                            android:id="@+id/tableRow56"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginRight="1dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Company Name"
+                                android:textColor="#000000"
+                                android:textSize="15dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Offers"
+                                android:textColor="#000000"
+                                android:textSize="15dp"/>
+
+
+                            <TextView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Stipend\n(per month)"
+
+                                android:textColor="#000000"
+                                android:textSize="15dp"/>
+
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tableRow57"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B">
+
+                            <TextView
+                                android:layout_width="145dp"
+                                android:layout_height="wrap_content"
+                                android:text="Microsoft GTSC"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textSize="15dp"
+                                android:textColor="#3B444B"/>
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:text="5"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="25,000"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B"/>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tableRow58"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B">
+
+                            <TextView
+                                android:layout_width="145dp"
+                                android:layout_height="wrap_content"
+                                android:text="Amazon"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B"/>
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:text="3"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="30,000"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B"/>
+
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tableRow59"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#3B444B">
+
+                            <TextView
+                                android:layout_width="145dp"
+                                android:layout_height="wrap_content"
+                                android:text="Samsung"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B"/>
+
+                            <TextView
+                                android:layout_width="60dp"
+                                android:layout_height="wrap_content"
+                                android:text="8"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="25,000"
+                                android:textSize="15dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="1dp"
+                                android:textColor="#3B444B"/>
+
+                        </TableRow>
+
+
+
+                    </TableLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/cardplus"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                >
+
+                <ImageView
+                    android:id="@+id/imageView33"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:src="@drawable/statistics" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.v4.widget.NestedScrollView>

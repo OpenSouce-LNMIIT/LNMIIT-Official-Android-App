@@ -1,7 +1,9 @@
 package lnmiit.android.app.activity;
 
 import android.os.Bundle;
+import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -12,10 +14,11 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
+import android.util.TypedValue;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 
 import com.bumptech.glide.Glide;
 
@@ -26,8 +29,10 @@ import lnmiit.android.app.fragment.AdministrationFragment;
 import lnmiit.android.app.fragment.AdmissionsFragment;
 import lnmiit.android.app.fragment.EmergencyFragment;
 import lnmiit.android.app.fragment.FacultyFragment;
+import lnmiit.android.app.fragment.GalleryImageFragment;
 import lnmiit.android.app.fragment.HomeFragment;
 import lnmiit.android.app.fragment.MapFragment;
+import lnmiit.android.app.fragment.PlacementFragment;
 import lnmiit.android.app.fragment.StudentFragment;
 
 /* Created by Chanpreet
@@ -36,11 +41,13 @@ import lnmiit.android.app.fragment.StudentFragment;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+
     private Toolbar toolbar;
     private TabLayout tabLayout;
     private ImageView imageView ;
     private CollapsingToolbarLayout collapsingToolbar;
-
+    private RelativeLayout view;
+    private AppBarLayout appBar ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,11 +55,11 @@ public class MainActivity extends AppCompatActivity
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-
+        appBar = (AppBarLayout)findViewById(R.id.appbar);
+        view = (RelativeLayout)findViewById(R.id.view);
         collapsingToolbar = (CollapsingToolbarLayout)findViewById(R.id.collapsing_toolbar);
         imageView = (ImageView)findViewById(R.id.backdrop);
         tabLayout = (TabLayout) findViewById(R.id.tabs);
-        tabLayout.setTabMode(TabLayout.MODE_SCROLLABLE);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -84,68 +91,55 @@ public class MainActivity extends AppCompatActivity
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-        if (id == R.id.action_settings) {
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
-
-
-    // TODO : Add Fragments for other branches
-    @Override
     public boolean onNavigationItemSelected(MenuItem item) {
 
         Fragment fragment = null;
 
         int id = item.getItemId();
         if(id == R.id.home){
-            setVisibleToolbar();
-          fragment = new HomeFragment();
-            setTitleToolbar("LNMIIT");
-            Glide.with(this).load(R.drawable.pic).into(imageView);
+            fragment = new HomeFragment();
+            lockAppBar(false,"Home");
+            Glide.with(this).load(R.drawable.lnmiit_main).into(imageView);
         } else if (id == R.id.academics) {
-            setVisibleToolbar();
             fragment = new AcademicsFragment();
-            setTitleToolbar("Academics");
+            lockAppBar(false,"Academics");
+            Glide.with(this).load(R.drawable.academics).into(imageView);
         } else if (id == R.id.admission) {
-            setVisibleToolbar();
+
             fragment = new AdmissionsFragment();
-            setTitleToolbar("Admissions");
+            lockAppBar(false,"Admissions");
+            Glide.with(this).load(R.drawable.admission).into(imageView);
         } else if (id == R.id.placement) {
+            fragment = new PlacementFragment();
+            lockAppBar(false,"Placements");
+            Glide.with(this).load(R.drawable.placement1).into(imageView);
+
         } else if (id == R.id.administration) {
-            setVisibleToolbar();
             fragment = new AdministrationFragment();
-            setTitleToolbar("Administration");
+            lockAppBar(false,"Administartion");
+            Glide.with(this).load(R.drawable.admin).into(imageView);
         } else if (id == R.id.faculty) {
-            setVisibleToolbar();
             fragment = new FacultyFragment();
-            setTitleToolbar("Faculty");
+            lockAppBar(false,"Faculty");
+            Glide.with(this).load(R.drawable.faculty).into(imageView);
         } else if (id == R.id.student) {
-            setVisibleToolbar();
             fragment = new StudentFragment();
-            Glide.with(this).load(R.drawable.student).into(imageView);
-            setTitleToolbar("Student");
+            lockAppBar(false,"Student");
+            getSupportActionBar().setTitle("Student");
         } else if (id == R.id.emergency) {
-            setVisibleToolbar();
             fragment = new EmergencyFragment();
-            setTitleToolbar("Emergency");
-        } else if (id == R.id.bus) {
+            lockAppBar(false,"Emergency");
+            Glide.with(this).load(R.drawable.a14).into(imageView);
         } else if (id == R.id.map) {
-            setInvisibleToolbar();
-            setTitleToolbar("Reach Us");
             fragment= new MapFragment();
+            lockAppBar(true,"Reach Us");
         } else if (id == R.id.gallery) {
+            lockAppBar(true,"Gallery");
+            fragment = new GalleryImageFragment();
         } else if (id == R.id.about) {
-            setVisibleToolbar();
             fragment = new AboutUsFragment();
+            lockAppBar(false,"About us");
+            Glide.with(this).load(R.drawable.aboutus).into(imageView);
         }
 
         if (fragment != null) {
@@ -160,19 +154,21 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
-    private void setVisibleToolbar(){
-        toolbar.setCollapsible(true);
-        imageView.setVisibility(View.VISIBLE);
-        tabLayout.setVisibility(View.VISIBLE);
-    }
-
-    private void setInvisibleToolbar(){
-
-        imageView.setVisibility(View.GONE);
-        tabLayout.setVisibility(View.GONE);
-    }
-
-    private void setTitleToolbar(String title){
+    public void lockAppBar(boolean locked,String title) {
         getSupportActionBar().setTitle(title);
+        if(locked){
+            tabLayout.setVisibility(View.GONE);
+            appBar.setExpanded(false, true);
+            int px = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 60, getResources().getDisplayMetrics());
+            CoordinatorLayout.LayoutParams lp = (CoordinatorLayout.LayoutParams)appBar.getLayoutParams();
+            lp.height = px;
+            appBar.setLayoutParams(lp);
+        }else{
+            tabLayout.setVisibility(View.VISIBLE);
+            appBar.setExpanded(true, false);
+            appBar.setActivated(true);
+            CoordinatorLayout.LayoutParams lp = (CoordinatorLayout.LayoutParams) appBar.getLayoutParams();
+            lp.height = (int) getResources().getDimension(R.dimen.app_bar_height);
+        }
     }
 }

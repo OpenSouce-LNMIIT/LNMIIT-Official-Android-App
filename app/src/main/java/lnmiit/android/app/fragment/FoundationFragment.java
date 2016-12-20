@@ -38,7 +38,7 @@ public class FoundationFragment extends Fragment {
         message = getResources().getStringArray(R.array.foundation_message);
         header = getResources().getStringArray(R.array.foundation_header);
 
-
+        list = new ArrayList<>();
         adapter = new StudentCouncilFestAdapter(getActivity().getApplicationContext(),list);
         layoutManager= new LinearLayoutManager(getContext(),LinearLayoutManager.VERTICAL,false);
         recyclerView.setLayoutManager(layoutManager);

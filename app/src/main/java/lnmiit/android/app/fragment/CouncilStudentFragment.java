@@ -35,7 +35,7 @@ public class CouncilStudentFragment extends Fragment {
         council = getResources().getStringArray(R.array.council);
         des = getResources().getStringArray(R.array.description);
 
-
+        list = new ArrayList<>();
         adapter = new StudentCouncilFestAdapter(getActivity().getApplicationContext(),list);
         layoutManager= new LinearLayoutManager(getContext(),LinearLayoutManager.VERTICAL,false);
         recyclerView.setLayoutManager(layoutManager);
