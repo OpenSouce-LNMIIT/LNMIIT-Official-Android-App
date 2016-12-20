@@ -9,6 +9,7 @@ import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.DefaultItemAnimator;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -19,14 +20,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 import lnmiit.android.app.R;
+import lnmiit.android.app.adapter.FacultyAdapter;
 import lnmiit.android.app.adapter.PlacementAdapter;
 import lnmiit.android.app.model.ContactDetails;
+import lnmiit.android.app.model.FacultyDetails;
 
 
 public class ContactFragment extends Fragment {
     private RecyclerView recyclerView;
-    private PlacementAdapter adapter;
-    private List<ContactDetails> contactList;
+    private RecyclerView.Adapter adapter;
+    private List<FacultyDetails> contactList;
     private String imageUrl[], contact_name[], contact_title[], contact_email[], contact_phone[];
     private Context applicationContext;
 
@@ -44,13 +47,13 @@ public class ContactFragment extends Fragment {
         recyclerView = (RecyclerView) view.findViewById(R.id.recycler_view);
 
         contactList = new ArrayList<>();
-        adapter = new PlacementAdapter(getContext(), contactList);
+        adapter = new FacultyAdapter(getContext(), contactList);
 
         if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT) {
-            RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getApplicationContext());
+            RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(getContext(),2);
             recyclerView.setLayoutManager(mLayoutManager);
         } else {
-            RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(getApplicationContext());
+            RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(getContext(),2);
             recyclerView.setLayoutManager(mLayoutManager);
         }
 
@@ -69,7 +72,7 @@ public class ContactFragment extends Fragment {
     private void loadContactDetails() {
         ContactDetails a = null;
         for (int i = 0; i < imageUrl.length; i++) {
-            contactList.add(new ContactDetails(contact_name[i], contact_title[i], imageUrl[i], contact_email[i], contact_phone[i]));
+            contactList.add(new FacultyDetails(contact_name[i], contact_title[i], imageUrl[i], contact_email[i], contact_phone[i]));
         }
         adapter.notifyDataSetChanged();
     }
