@@ -52,7 +52,7 @@
         android:id="@+id/grp4">
         <item
             android:id="@+id/gallery"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_photo_size_select_actual_black_24px"
             android:title="@string/gallery" />
         <item
             android:id="@+id/about"
