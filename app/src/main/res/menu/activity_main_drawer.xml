@@ -3,7 +3,7 @@
 
     <item
         android:id="@+id/home"
-        android:title="LNMIIT"
+        android:title="Home"
         android:icon="@drawable/ic_home"
         android:checked="true"
         android:checkable="true"/>
@@ -44,10 +44,6 @@
             android:title="@string/emergency"
             android:icon="@drawable/ic_healing_black_24px"/>
         <item
-            android:id="@+id/bus"
-            android:title="@string/bus"
-            android:icon="@drawable/ic_directions_bus_black_24px"/>
-        <item
             android:id="@+id/map"
             android:title="@string/map"
             android:icon="@drawable/ic_add_location_black_24px"/>
@@ -56,7 +52,7 @@
         android:id="@+id/grp4">
         <item
             android:id="@+id/gallery"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_photo_size_select_actual_black_24px"
             android:title="@string/gallery" />
         <item
             android:id="@+id/about"

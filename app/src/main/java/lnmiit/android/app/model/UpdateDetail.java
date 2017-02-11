@@ -30,6 +30,10 @@ public class UpdateDetail implements Parcelable {
         }
     };
 
+    public UpdateDetail() {
+
+    }
+
     public String getUrl() {
         return url;
     }

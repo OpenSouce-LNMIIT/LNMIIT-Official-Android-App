@@ -40,6 +40,8 @@ public class GymkhanaStudentFragment extends Fragment {
 
         list = new ArrayList<>();
         recyclerView = (RecyclerView) view.findViewById(R.id.recycle_gymkhana);
+
+        list = new ArrayList<>();
         adapter = new FacultyAdapter(getContext(), list);
         if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT) {
             RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(getContext(), 2);

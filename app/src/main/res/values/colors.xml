@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#CC0000</color>
-    <color name="colorPrimaryDark">#990000</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#D32F2F</color>
+    <color name="colorAccent">#FFEBEE</color>
     <color name="faculty_title">#4c4c4c</color>
     <color name="tab_indicator">#6D4C41</color>
 
@@ -10,4 +10,31 @@
     <color name="text_color_secondary">#3a3f40</color>
     <color name="divider_white">#8c9096</color>
     <color name="main_backgrnd">#ECF1F4</color>
+    <color name="background">#FFCDD2</color>
+    <color name="card_stroke">#dddddd</color>
+    <color name="card_text_light">#66000000</color>
+    <color name="card_text">#ff8d8d8d</color>
+    <color name="card_title_text">#ff707070</color>
+    <color name="card_light_text">#ffb5b5b5</color>
+    <color name="card_grid_text">#ff707070</color>
+    <color name="card_separator">#ffe5e5e5</color>
+    <color name="card_border">#ffdedede</color>
+    <color name="card_background">#f3f3f3</color>
+    <color name="card_shadow">#ffd6d6d6</color>
+    <color name="card_light_shadow">#ffe5e5e5</color>
+    <color name="grey">#cacaca</color>
+    <color name="transparentbg">#D9000000</color>
+    <color name="semitransparentbg">#80000000</color>
+    <color name="eightytransparentbg">#80000000</color>
+    <color name="azure">#E0EEEE</color>
+    <color name="aliceblue">#F0F8FF</color>
+    <color name="purple">#800080</color>
+    <color name="royalblue">#3598DB</color>
+    <color name="picassoblue">#0276FD</color>
+    <color name="red">#E84C3D</color>
+    <color name="layout_bg">#E6E6E6</color>
+    <color name="black">#000</color>
+    <color name="grid_state_pressed">#BB561e14</color>
+    <color name="grid_state_focused">#77561e14</color>
+    <color name="galleryImage">#82000000</color>
 </resources>

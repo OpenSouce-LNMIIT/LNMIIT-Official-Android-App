@@ -14,9 +14,9 @@
     <dimen name="card_update_radius">2dp</dimen>
     <dimen name="faculty_cover_height">100dp</dimen>
     <dimen name="faculty_title_padding">10dp</dimen>
-    <dimen name="faculty_title">15sp</dimen>
+    <dimen name="faculty_title">16dp</dimen>
     <dimen name="designation_padding_bottom">5dp</dimen>
-    <dimen name="designation_text_size">12dp</dimen>
+    <dimen name="designation_text_size">14dp</dimen>
     <dimen name="margin_icon_textview">20dp</dimen>
     <dimen name="margin_top_layout">10dp</dimen>
     <dimen name="margin_bottom_layout">10dp</dimen>
@@ -30,7 +30,7 @@
     <dimen name="emptyTextSize">26dp</dimen>
     <dimen name="image_size">100dp</dimen>
     <dimen name="detailedmargin">10dp</dimen>
-    <dimen name="head_text">22sp</dimen>
+    <dimen name="head_text">20sp</dimen>
     <dimen name="norml_text">16sp</dimen>
     <dimen name="global_padding">5dp</dimen>
     <dimen name="global_margin">4dp</dimen>
@@ -42,4 +42,10 @@
     <dimen name="padding_left">5dp</dimen>
     <dimen name="card_radius">2dp</dimen>
     <dimen name="card_elevation">3dp</dimen>
+    <dimen name="card_album_radius">0dp</dimen>
+       <dimen name="photo_size">120dp</dimen>
+        <dimen name="photo_spacing">4dp</dimen>
+        <dimen name="text">20sp</dimen>
+    <dimen name="app_bar_height">240dp</dimen>
+    <dimen name="app_bar">320dp</dimen>
 </resources>

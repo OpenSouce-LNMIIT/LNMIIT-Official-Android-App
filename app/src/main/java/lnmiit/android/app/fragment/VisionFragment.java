@@ -38,7 +38,7 @@ public class VisionFragment extends Fragment {
         message = getResources().getStringArray(R.array.vision_array_message);
         header = getResources().getStringArray(R.array.vision_array_header);
 
-
+        list = new ArrayList<>();
         adapter = new StudentCouncilFestAdapter(getActivity().getApplicationContext(),list);
         layoutManager= new LinearLayoutManager(getContext(),LinearLayoutManager.VERTICAL,false);
         recyclerView.setLayoutManager(layoutManager);
