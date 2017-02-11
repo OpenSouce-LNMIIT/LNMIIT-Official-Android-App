@@ -138,11 +138,23 @@ public class UpdateFragment extends Fragment {
 
 
             ArrayList<? extends Parcelable> list =  intent.getParcelableArrayListExtra(CrawDataService.DATA_UPDATE);
+            int size = db.getAllUpdates().size();
             for(int i = 0 ; i < list.size() ; i++){
                 if(!db.hasObjectInUpdate(((UpdateDetail) list.get(i)).getTitle())) {
                     updateList.add((UpdateDetail) list.get(i));
-                    updateAdapter.notifyItemChanged(updateList.size()-1);
                     db.addItemtoUpdate((UpdateDetail) list.get(i));
+                }
+            }
+            if(size == 0){
+                updateAdapter = new UpdateAdapter(context,updateList);
+                recyclerView.setAdapter(updateAdapter);
+
+                if(updateList.isEmpty()){
+                    recyclerView.setVisibility(View.GONE);
+                    emptyText.setVisibility(View.VISIBLE);
+                }else {
+                    recyclerView.setVisibility(View.VISIBLE);
+                    emptyText.setVisibility(View.GONE);
                 }
             }
         }
