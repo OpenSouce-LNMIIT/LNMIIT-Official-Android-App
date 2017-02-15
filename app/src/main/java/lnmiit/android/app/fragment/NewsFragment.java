@@ -139,11 +139,23 @@ public class NewsFragment extends Fragment {
         public void onReceive(Context context, Intent intent) {
 
             ArrayList<? extends Parcelable> list =  intent.getParcelableArrayListExtra(CrawDataService.DATA_NEWS);
+            int size = db.getAllNews().size();
             for(int i = 0 ; i < list.size() ; i++){
-                if(!db.hasObjectInNews(((UpdateDetail) list.get(i)).getTitle())) {
+                if(!db.hasObjectInUpdate(((UpdateDetail) list.get(i)).getTitle())) {
                     updateList.add((UpdateDetail) list.get(i));
-                    updateAdapter.notifyItemChanged(updateList.size()-1);
                     db.addItemtoNews((UpdateDetail) list.get(i));
+                }
+            }
+            if(size == 0){
+                updateAdapter = new UpdateAdapter(context,updateList);
+                recyclerView.setAdapter(updateAdapter);
+
+                if(updateList.isEmpty()){
+                    recyclerView.setVisibility(View.GONE);
+                    emptyText.setVisibility(View.VISIBLE);
+                }else {
+                    recyclerView.setVisibility(View.VISIBLE);
+                    emptyText.setVisibility(View.GONE);
                 }
             }
         }
