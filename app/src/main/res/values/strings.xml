@@ -451,7 +451,7 @@ We understand that adjusting to a new environment away from home will take some 
     <string-array name="gymkhana_designation">
         <item>President</item>
         <item>Vice-President</item>
-        <item>Finanace Convener</item>
+        <item>Finance Convener</item>
         <item>Gen.Sec.Cultural</item>
         <item>Gen.Sec.Science-Tech</item>
         <item>Gen.Sec.Sports</item>
@@ -459,18 +459,18 @@ We understand that adjusting to a new environment away from home will take some 
     <string-array name="gymkhana_links">
         <item>https://goo.gl/Mfi1Ya</item>
         <item>https://goo.gl/WnGM7h</item>
-        <item>https://goo.gl/6rCtPg</item>
+        <item>https://goo.gl/6PNUcz</item>
         <item>https://goo.gl/mL4j2z</item>
         <item>https://goo.gl/BApiVd</item>
         <item>https://goo.gl/Gy5R6Y</item>
     </string-array>
     <string-array name="gymkhana_email">
-        <item>"sdangi724@gmail.com"</item>
-        <item>"samyakduttgupta@gmail.com"</item>
-        <item>"deepprakhar24@gmail.com"</item>
-        <item>"akshaymodi.lnmiit@gmail.com"</item>
-        <item>"vbehl03@gmail.com"</item>
-        <item>"shubhamv1204@gmail.com"</item>
+        <item>"gym.president@lnmiit.ac.in"</item>
+        <item>"gym.vicepresident@lnmiit.ac.in"</item>
+        <item>"y14uc047@lnmiit.ac.in"</item>
+        <item>"gsec.cultural@lnmiit.ac.in"</item>
+        <item>"gsec.science@lnmiit.ac.in"</item>
+        <item>"gsec.sports@lnmiit.ac.in"</item>
     </string-array>
 
     <string name="intro_ug"> The primary objectives of establishing the LNM INSTITUTE OF INFORMATION TECHNOLOGY JAIPUR
@@ -591,7 +591,7 @@ The Institute is currently running the following Four Year B.Tech Programmes:-</
         </ul>
     </string>
     <string name="eligibilty">
-        Students who will fullfill the college criteria of JEE-Prelims and JEE-Advance exams are eligible for the admission.
+        Students who will fulfill the college criteria of JEE-Prelims and JEE-Advance exams are eligible for the admission.
     </string>
     <string-array name="admin_name">
         <item>Prof. Rahul Banerjee</item>
@@ -637,11 +637,11 @@ The Institute is currently running the following Four Year B.Tech Programmes:-</
     </string-array>
 
     <string-array name="cont_url">
-        <item> </item>
+        <item>https://goo.gl/8qaeFX</item>
         <item>http://bit.ly/2g2Cgfa</item>
         <item>http://bit.ly/2fqpOSQ</item>
-        <item>http://bit.ly/2eZjYas </item>
-        <item>http://bit.ly/2fiKFtO </item>
+        <item>https://goo.gl/VYXGqA</item>
+        <item>https://goo.gl/iLCnCH</item>
     </string-array>
 
     <string-array name="cont_title">
@@ -659,26 +659,17 @@ The Institute is currently running the following Four Year B.Tech Programmes:-</
         <item>MR. MANUJ SHARMA</item>
         <item>DR. PREETY SINGH</item>
         <item>MR. SANDEEP SAINI</item>
-        <item>TUSHAR AGARWAL</item>
-        <item>SAURABH KAYAL</item>
+        <item>ABHISHEK CHOUDHARY</item>
+        <item>SHOBHIT ASAI</item>
     </string-array>
 
     <string-array name="cont_email">
         <item>top@lnmiit.ac.in</item>
         <item>prtysingh@gmail.com</item>
         <item>sandeep.saini@lnmiit.ac.in</item>
-        <item>Tusharlnmiit94@gmail.com</item>
-        <item>saurabhkayal007@gmail.com</item>
-
+        <item>y14uc006@lnmiit.ac.in</item>
+        <item>y14uc269@lnmiit.ac.in</item>
     </string-array>
 
-    <string-array name="cont_number">
-        <item>+918696792550</item>
-        <item>+919828364396</item>
-        <item>+919983180460</item>
-        <item>+919414061624</item>
-        <item>+919024699141</item>
-        <item>+919680613840</item>
-    </string-array>
 </resources>
 

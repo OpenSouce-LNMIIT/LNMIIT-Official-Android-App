@@ -45,7 +45,6 @@ public class PlacementAdapter extends RecyclerView.Adapter<PlacementAdapter.MyVi
 
         holder.title.setText(contact.getTitle());
         holder.name.setText(contact.getName());
-        holder.number.setText(contact.getPhone());
         holder.email.setText(contact.getEmail());
 
 
@@ -73,7 +72,7 @@ public class PlacementAdapter extends RecyclerView.Adapter<PlacementAdapter.MyVi
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
-        private TextView title, name, number, email;
+        private TextView title, name, email;
         private ImageView imageViewContact;
 
         public MyViewHolder(View view) {
@@ -81,7 +80,6 @@ public class PlacementAdapter extends RecyclerView.Adapter<PlacementAdapter.MyVi
             imageViewContact = (ImageView) view.findViewById(R.id.imageViewContact1);
             title = (TextView) view.findViewById(R.id.title1);
             name = (TextView) view.findViewById(R.id.name1);
-            number = (TextView) view.findViewById(R.id.number1);
             email = (TextView) view.findViewById(R.id.email1);
 
 
