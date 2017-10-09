@@ -8,16 +8,15 @@ public class FacultyDetails {
     /*
      Faculty Basic information
      */
-    private String name , designation , email , phone , url ;
+    private String name , designation , email , url ;
 
 
     /* Constructor */
-    public FacultyDetails(String name , String designation , String url , String email , String phone){
+    public FacultyDetails(String name , String designation , String url , String email){
         this.name = name;
         this.designation = designation;
         this.url = url ;
         this.email = email ;
-        this.phone = phone ;
     }
 
     /*Getters
@@ -26,9 +25,6 @@ public class FacultyDetails {
         return email;
     }
 
-    public String getPhone() {
-        return phone;
-    }
     public String getUrl() {
         return url;
     }

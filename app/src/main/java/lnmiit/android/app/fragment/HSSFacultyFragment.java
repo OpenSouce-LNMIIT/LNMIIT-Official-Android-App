@@ -26,7 +26,7 @@ public class HSSFacultyFragment extends Fragment {
     private RecyclerView recyclerView;
     private FacultyAdapter adapter;
     private List<FacultyDetails> facultyList;
-    private String imageUrl[], faculty_name[], faculty_designation[], faculty_email[], faculty_phone[];
+    private String imageUrl[], faculty_name[], faculty_designation[], faculty_email[];
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -37,7 +37,6 @@ public class HSSFacultyFragment extends Fragment {
         faculty_name = getResources().getStringArray(R.array.hss_faculty_name);
         faculty_designation = getResources().getStringArray(R.array.hss_faculty_designation);
         faculty_email = getResources().getStringArray(R.array.hss_faculty_email);
-        faculty_phone = getResources().getStringArray(R.array.hss_faculty_contact);
 
         recyclerView = (RecyclerView) view.findViewById(R.id.recycler_view);
 
@@ -67,7 +66,7 @@ public class HSSFacultyFragment extends Fragment {
     private void loadFacultyDetails() {
         FacultyDetails a = null;
         for (int i = 0; i < imageUrl.length; i++) {
-            facultyList.add(new FacultyDetails(faculty_name[i], faculty_designation[i], imageUrl[i], faculty_email[i], faculty_phone[i]));
+            facultyList.add(new FacultyDetails(faculty_name[i], faculty_designation[i], imageUrl[i], faculty_email[i]));
         }
         adapter.notifyDataSetChanged();
     }
