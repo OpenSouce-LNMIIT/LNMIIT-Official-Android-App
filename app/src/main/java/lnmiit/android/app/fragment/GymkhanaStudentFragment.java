@@ -24,7 +24,6 @@ public class GymkhanaStudentFragment extends Fragment {
     private String desig[];
     private String imageLink[];
     private String email[];
-    private String phone[];
     private GridLayoutManager gridLayoutManager;
     private RecyclerView.Adapter adapter;
 
@@ -36,7 +35,6 @@ public class GymkhanaStudentFragment extends Fragment {
         desig = getResources().getStringArray(R.array.gymkhana_designation);
         imageLink = getResources().getStringArray(R.array.gymkhana_links);
         email = getResources().getStringArray(R.array.gymkhana_email);
-        phone = getResources().getStringArray(R.array.gymkhana_phone);
 
         list = new ArrayList<>();
         recyclerView = (RecyclerView) view.findViewById(R.id.recycle_gymkhana);
@@ -61,7 +59,7 @@ public class GymkhanaStudentFragment extends Fragment {
      */
     private void loadGymkhanaDetails() {
         for (int i = 0; i < name.length; i++) {
-            list.add(new FacultyDetails(name[i], desig[i], imageLink[i], email[i], phone[i]));
+            list.add(new FacultyDetails(name[i], desig[i], imageLink[i], email[i]));
         }
         adapter.notifyDataSetChanged();
     }

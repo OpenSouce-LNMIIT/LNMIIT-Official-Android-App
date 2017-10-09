@@ -30,7 +30,7 @@ public class ContactFragment extends Fragment {
     private RecyclerView recyclerView;
     private RecyclerView.Adapter adapter;
     private List<FacultyDetails> contactList;
-    private String imageUrl[], contact_name[], contact_title[], contact_email[], contact_phone[];
+    private String imageUrl[], contact_name[], contact_title[], contact_email[];
     private Context applicationContext;
 
     @Override
@@ -42,7 +42,6 @@ public class ContactFragment extends Fragment {
         contact_name = getResources().getStringArray(R.array.cont_name);
         contact_title = getResources().getStringArray(R.array.cont_title);
         contact_email = getResources().getStringArray(R.array.cont_email);
-        contact_phone = getResources().getStringArray(R.array.cont_number);
 
         recyclerView = (RecyclerView) view.findViewById(R.id.recycler_view);
 
@@ -72,7 +71,7 @@ public class ContactFragment extends Fragment {
     private void loadContactDetails() {
         ContactDetails a = null;
         for (int i = 0; i < imageUrl.length; i++) {
-            contactList.add(new FacultyDetails(contact_name[i], contact_title[i], imageUrl[i], contact_email[i], contact_phone[i]));
+            contactList.add(new FacultyDetails(contact_name[i], contact_title[i], imageUrl[i], contact_email[i]));
         }
         adapter.notifyDataSetChanged();
     }

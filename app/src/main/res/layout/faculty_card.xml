@@ -72,15 +72,7 @@
                     android:id="@+id/ivemail"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="@dimen/margin_icon_textview"
                     android:src="@drawable/ic_email" />
-
-                <ImageView
-                    android:id="@+id/ivphone"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/margin_icon_textview"
-                    android:src="@drawable/ic_phone" />
 
             </LinearLayout>
 

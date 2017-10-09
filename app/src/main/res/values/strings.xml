@@ -89,23 +89,6 @@
         <item>jadonmukesh30@gmail.com</item>
     </string-array>
 
-    <string-array name="cse_faculty_contact">
-        <item> </item>
-        <item>+917597167508</item>
-        <item>+919739979480</item>
-        <item>+919413825982</item>
-        <item>+917727017662</item>
-        <item>+918764395180</item>
-        <item>+919828364396</item>
-        <item>+919829688889</item>
-        <item> </item>
-        <item>+918764038699</item>
-        <item> </item>
-        <item>+918875522828</item>
-        <item>+919530176476</item>
-        <item> </item>
-    </string-array>
-
     <string-array name="ece_faculty_url">
         <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=77&amp;command=profile_pic&amp;w=100&amp;h=100</item>
         <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=46&amp;command=profile_pic&amp;w=100&amp;h=100</item>
@@ -182,28 +165,7 @@
         <item>nikhil.sharma@lnmiit.ac.in</item>
         <item>purnendu.karmakar@lnmiit.ac.in</item>
         <item>sandeep.saini@lnmiit.ac.in</item>
-<item>
-joyeeta.singha@lnmiit.ac.in
-</item>
-    </string-array>
-    <string-array name="ece_faculty_contact">
-        <item> </item>
-        <item>+919001708555</item>
-        <item> </item>
-        <item> </item>
-        <item> </item>
-        <item> </item>
-        <item> </item>
-        <item>+919061467339</item>
-        <item> </item>
-        <item> </item>
-        <item> </item>
-        <item>+919772949546</item>
-        <item>+919783148133</item>
-        <item>+919599043368</item>
-        <item> </item>
-        <item>9983180460</item>
-        <item> </item>
+        <item>joyeeta.singha@lnmiit.ac.in</item>
     </string-array>
 
     <string-array name="mme_faculty_url">
@@ -250,18 +212,6 @@ joyeeta.singha@lnmiit.ac.in
         <item>deepunune@gmail.com</item>
         <item>pkjha@lnmiit.ac.in</item>
     </string-array>
-    <string-array name="mme_faculty_contact">
-        <item>+919829686661</item>
-        <item> </item>
-        <item>+919654637898</item>
-        <item>+918294403741</item>
-        <item> </item>
-        <item> </item>
-        <item>+919860678208</item>
-        <item>+918947965681</item>
-        <item> </item>
-    </string-array>
-
 
     <string-array name="math_faculty_url">
         <item>http://lnmiit.ac.in/images/system/noprofile.jpg</item>
@@ -305,18 +255,6 @@ joyeeta.singha@lnmiit.ac.in
         <item>somnath.maiti@lnmiit.ac.in</item>
         <item>sgauttam@lnmiit.ac.in</item>
         <item> </item>
-    </string-array>
-
-    <string-array name="math_faculty_contact">
-        <item>+919450346470</item>
-        <item> </item>
-        <item> </item>
-        <item> </item>
-        <item> </item>
-        <item> </item>
-        <item> </item>
-		<item>+911415191797
-</item>
     </string-array>
 
     <string-array name="physics_faculty_url">
@@ -371,20 +309,6 @@ joyeeta.singha@lnmiit.ac.in
         <item>pghoshal@lnmiit.ac.in</item>
         <item>rtibs@lnmiit.ac.in</item>
     </string-array>
-    <string-array name="physics_faculty_contact">
-        <item> </item>
-        <item> </item>
-        <item>+917597171575</item>
-        <item>+919166592663</item>
-        <item>+919413839224</item>
-        <item> </item>
-        <item> </item>
-        <item>9530180458</item>
-        <item> </item>
-        <item>+917597492213</item>
-        <item> </item>
-    </string-array>
-
 
     <string-array name="hss_faculty_url">
         <item>http://lnmiit.ac.in/ImageGenerator.aspx?imgID=84&amp;command=profile_pic&amp;w=100&amp;h=100</item>
@@ -423,14 +347,6 @@ joyeeta.singha@lnmiit.ac.in
         <item>usha.kanoongo@gmail.com</item>
     </string-array>
 
-    <string-array name="hss_faculty_contact">
-        <item>+919950207979</item>
-        <item> </item>
-        <item> </item>
-        <item>+919414061624</item>
-        <item>+919460586151</item>
-        <item>+919950656775</item>
-    </string-array>
     <string name="title_activity_web">WebActivity</string>
     <string name="action_loadbrowser">Open in Browser</string>
     <string name="action_copylink">Copy link</string>
@@ -525,47 +441,39 @@ We understand that adjusting to a new environment away from home will take some 
         <item>Desportivos is the annual Sports fest of The LNM Institute of Information Technology, Jaipur. Situated in the midst of the Aravalli , it is spread in an area of 100 acres and boasts of the finest sports  infrastructure that an Institute campus an aspire to have.Desportivos, attracts a wide spectrum of the youth from all over the country  and this year we had total footfall of over 5,000 students during the 3 days of the fest. The fest incorporated a wide range of outdoor as well as indoor sports activities like cricket, badminton, volleyball, basketball, football, table tennis, chess, and carom.</item>
     </string-array>
     <string-array name="gymkhana_name">
-        <item>Shubham Dangi</item>
-        <item>Samyak Dutt Gupta</item>
-        <item>Prakhar Deep</item>
-        <item>Akshay Modi</item>
-        <item>Vipul Behl</item>
-        <item>Shubham Vashisth</item>
+        <item>Bhavik Thakkar</item>
+        <item>Ayush Soral</item>
+        <item>Arpan Goyal</item>
+        <item>Gaurav Aidasani</item>
+        <item>Anmol Ratnam</item>
+        <item>Parth Goyal</item>
     </string-array>
     <string-array name="gymkhana_designation">
         <item>President</item>
         <item>Vice-President</item>
-        <item>Finanace Convener</item>
+        <item>Finance Convener</item>
         <item>Gen.Sec.Cultural</item>
         <item>Gen.Sec.Science-Tech</item>
         <item>Gen.Sec.Sports</item>
     </string-array>
     <string-array name="gymkhana_links">
-        <item>"http://bit.ly/2d23ou6"</item>
-        <item>"http://bit.ly/2cNwc7L"</item>
-        <item>"http://bit.ly/2dgIqqw"</item>
-        <item></item>
-        <item>http://bit.ly/2cGDfBA</item>
-        <item>http://bit.ly/2cNGHYM</item>
+        <item>https://goo.gl/Mfi1Ya</item>
+        <item>https://goo.gl/WnGM7h</item>
+        <item>https://goo.gl/6PNUcz</item>
+        <item>https://goo.gl/mL4j2z</item>
+        <item>https://goo.gl/BApiVd</item>
+        <item>https://goo.gl/Gy5R6Y</item>
     </string-array>
     <string-array name="gymkhana_email">
-        <item>"sdangi724@gmail.com"</item>
-        <item>"samyakduttgupta@gmail.com"</item>
-        <item>"deepprakhar24@gmail.com"</item>
-        <item>"akshaymodi.lnmiit@gmail.com"</item>
-        <item>"vbehl03@gmail.com"</item>
-        <item>"shubhamv1204@gmail.com"</item>
-    </string-array>
-    <string-array name="gymkhana_phone">
-        <item>+919828853059</item>
-        <item>+919462066697</item>
-        <item>+919413172823</item>
-        <item>+917597814370</item>
-        <item>+919468590302</item>
-        <item>+917073102810</item>
+        <item>"gym.president@lnmiit.ac.in"</item>
+        <item>"gym.vicepresident@lnmiit.ac.in"</item>
+        <item>"y14uc047@lnmiit.ac.in"</item>
+        <item>"gsec.cultural@lnmiit.ac.in"</item>
+        <item>"gsec.science@lnmiit.ac.in"</item>
+        <item>"gsec.sports@lnmiit.ac.in"</item>
     </string-array>
 
-     <string name="intro_ug"> The primary objectives of establishing the LNM INSTITUTE OF INFORMATION TECHNOLOGY JAIPUR
+    <string name="intro_ug"> The primary objectives of establishing the LNM INSTITUTE OF INFORMATION TECHNOLOGY JAIPUR
         (LNM IIT Jaipur) are:-\n
          <ul>
             <li>To create a platform, comparable to the best in the world\n</li>
@@ -683,11 +591,11 @@ The Institute is currently running the following Four Year B.Tech Programmes:-</
         </ul>
     </string>
     <string name="eligibilty">
-        Students who will fullfill the college criteria of JEE-Prelims and JEE-Advance exams are eligible for the admission.
+        Students who will fulfill the college criteria of JEE-Prelims and JEE-Advance exams are eligible for the admission.
     </string>
     <string-array name="admin_name">
-        <item>Prof. S.S. Gokhale</item>
-        <item>Col. Mohanjeet Singh Pathania</item>
+        <item>Prof. Rahul Banerjee</item>
+        <item>Dr. Renu Bapna</item>
         <item>Ashok Kumar Salecha</item>
         <item>Abhijit Galav</item>
         <item>Chand Singh Panwar</item>
@@ -704,13 +612,13 @@ The Institute is currently running the following Four Year B.Tech Programmes:-</
         <item>Training And Placement Officer</item>
     </string-array>
     <string-array name="admin_mail">
-        <item>ssgok1@gmail.com</item>
-        <item>mjs21pat@yahoo.co.in</item>
-        <item>aksalecha2010@gmail.com</item>
-        <item>abhijit.galav@gmail.com</item>
-        <item>chandsinghpanwar@gmail.com</item>
+        <item>rahul.banerjee@lnmiit.ac.in</item>
+        <item>registrar@lnmiit.ac.in</item>
+        <item>finance@lnmiit.ac.in</item>
+        <item>abhijitgalav@lnmiit.ac.in</item>
+        <item>cspanwar@lnmiit.ac.in</item>
         <item>shweta.pandey@lnmiit.ac.in</item>
-        <item>bkmanuj13@gmail.com</item>
+        <item>tpo@lnmiit.ac.in</item>
     </string-array>
 
     <string-array name="emergency_name">
@@ -729,11 +637,11 @@ The Institute is currently running the following Four Year B.Tech Programmes:-</
     </string-array>
 
     <string-array name="cont_url">
-        <item> </item>
+        <item>https://goo.gl/8qaeFX</item>
         <item>http://bit.ly/2g2Cgfa</item>
         <item>http://bit.ly/2fqpOSQ</item>
-        <item>http://bit.ly/2eZjYas </item>
-        <item>http://bit.ly/2fiKFtO </item>
+        <item>https://goo.gl/VYXGqA</item>
+        <item>https://goo.gl/iLCnCH</item>
     </string-array>
 
     <string-array name="cont_title">
@@ -751,25 +659,17 @@ The Institute is currently running the following Four Year B.Tech Programmes:-</
         <item>MR. MANUJ SHARMA</item>
         <item>DR. PREETY SINGH</item>
         <item>MR. SANDEEP SAINI</item>
-        <item>TUSHAR AGARWAL</item>
-        <item>SAURABH KAYAL</item>
+        <item>ABHISHEK CHOUDHARY</item>
+        <item>SHOBHIT ASAI</item>
     </string-array>
 
     <string-array name="cont_email">
         <item>top@lnmiit.ac.in</item>
         <item>prtysingh@gmail.com</item>
         <item>sandeep.saini@lnmiit.ac.in</item>
-        <item>Tusharlnmiit94@gmail.com</item>
-        <item>saurabhkayal007@gmail.com</item>
-
+        <item>y14uc006@lnmiit.ac.in</item>
+        <item>y14uc269@lnmiit.ac.in</item>
     </string-array>
 
-    <string-array name="cont_number">
-        <item>+918696792550</item>
-        <item>+919828364396</item>
-        <item>+919983180460</item>
-        <item>+919414061624</item>
-        <item>+919024699141</item>
-        <item>+919680613840</item>
-    </string-array>
 </resources>
+

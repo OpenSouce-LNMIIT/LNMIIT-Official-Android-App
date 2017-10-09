@@ -55,7 +55,6 @@ public class FacultyAdapter extends RecyclerView.Adapter<FacultyAdapter.MyViewHo
             title = (TextView) view.findViewById(R.id.tvtitle);
             designation = (TextView) view.findViewById(R.id.tvdesignation);
             thumbnail = (ImageView) view.findViewById(R.id.ivthumbnail);
-            phoneicon = (ImageView) view.findViewById(R.id.ivphone);
             emailicon = (ImageView) view.findViewById(R.id.ivemail);
         }
     }
@@ -67,22 +66,6 @@ public class FacultyAdapter extends RecyclerView.Adapter<FacultyAdapter.MyViewHo
 
         holder.title.setText(faculty.getName());
         holder.designation.setText(faculty.getDesignation());
-
-        if(faculty.getPhone().length() < 10) {
-            holder.phoneicon.setVisibility(View.GONE);
-        }else {
-            holder.phoneicon.setVisibility(View.VISIBLE);
-            holder.phoneicon.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    Intent intent = new Intent(Intent.ACTION_DIAL);
-                    intent.setData(Uri.parse("tel:" + faculty.getPhone()));
-                    if (intent.resolveActivity(mContext.getPackageManager()) != null) {
-                        mContext.startActivity(intent);
-                    }
-                }
-            });
-        }
 
         if(faculty.getEmail().length() < 2) {
             holder.emailicon.setVisibility(View.GONE);
