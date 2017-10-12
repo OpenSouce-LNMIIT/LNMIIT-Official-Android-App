@@ -36,6 +36,7 @@ android:
 before_install:
   - chmod +x gradlew
   - android list sdk --no-ui --all --extended
+  - android list targets
 
 before_script:
   - echo no | android create avd --force -n test -t android-$EMULATOR_API --abi google_apis/$ANDROID_ABI
