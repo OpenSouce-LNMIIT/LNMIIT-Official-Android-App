@@ -1,4 +1,4 @@
-![Build](https://api.travis-ci.org/KartikShankhavaram/LNMIIT-Official-Android-App.svg?branch=master)
+![Build](https://api.travis-ci.org/Cybros/LNMIIT-Official-Android-App.svg?branch=master)
 
 
 # LNMIIT Android Application
