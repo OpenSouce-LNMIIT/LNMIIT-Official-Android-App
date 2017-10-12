@@ -27,11 +27,11 @@ android:
   - tools
   - build-tools-$ANDROID_BUILD_TOOLS
   - android-$ANDROID_API
-  - android-$EMULATOR_API_LEVEL
+  - android-$EMULATOR_API
   - extra-google-m2repository
   - extra-android-m2repository # for design library
   - addon-google_apis-google-19 # google play services
-  - sys-img-$ANDROID_ABI-google_apis-$EMULATOR_API_LEVEL
+  - sys-img-$ANDROID_ABI-google_apis-$ANDROID_API
 
 before_install:
   - chmod +x gradlew
